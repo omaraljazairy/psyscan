@@ -19,4 +19,8 @@ export default {
   education: 'Educación',
   race_culture: 'Raza, Cultura',
   relationship_status: 'Estado civil',
+  percent_0: '0%',
+  percent_25: '25%',
+  percent_50: '50%',
+  percent_100: '100%',
 };

@@ -17,10 +17,10 @@ class Orientations extends Component {
             </Text>
           </View>
           <View style={styles.buttonsView}>
-            <SelectButton text="0%" btnSize="large" />
-            <SelectButton text="25%" btnSize="large" />
-            <SelectButton text="50%" btnSize="large" />
-            <SelectButton text="100%" btnSize="large" />
+            <SelectButton text="percent_0" btnSize="large" />
+            <SelectButton text="percent_25" btnSize="large" />
+            <SelectButton text="percent_50" btnSize="large" />
+            <SelectButton text="percent_100" btnSize="large" />
           </View>
         </View>
         <Bottom
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
   },
   descripnText: {
     color: 'yellow',
-    fontSize: 15,
+    fontSize: 20,
     textAlign: 'center',
   },
   buttonsView: {

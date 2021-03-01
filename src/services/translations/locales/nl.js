@@ -19,4 +19,8 @@ export default {
   education: 'Onderwijs',
   race_culture: 'Ras, Cultuur',
   relationship_status: 'Relatiestatus',
+  percent_0: '0%',
+  percent_25: '25%',
+  percent_50: '50%',
+  percent_100: '100%',
 };

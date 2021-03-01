@@ -19,4 +19,8 @@ export default {
   education: 'Education',
   race_culture: 'Race culture',
   relationship_status: 'Relationship status',
+  percent_0: '0%',
+  percent_25: '25%',
+  percent_50: '50%',
+  percent_100: '100%',
 };
