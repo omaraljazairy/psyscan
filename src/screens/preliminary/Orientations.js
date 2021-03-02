@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {SafeAreaView, StyleSheet, View, Text, Platform} from 'react-native';
+
 import Header from '../../components/Headers/Header';
 import Bottom from '../../components/Bottoms/Bottom';
 import SelectButton from '../../components/buttons/SelectButton';
@@ -51,9 +52,10 @@ const styles = StyleSheet.create({
     flexWrap: 'nowrap',
   },
   descripnText: {
-    color: 'yellow',
+    color: '#fff',
     fontSize: 20,
     textAlign: 'center',
+    fontWeight: 'bold',
   },
   buttonsView: {
     flexDirection: 'column',
