@@ -6,7 +6,7 @@ export default class SimplePicker extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      city: null,
+      value: 'none',
     };
   }
 
@@ -17,27 +17,22 @@ export default class SimplePicker extends Component {
     this.props.onChange(value);
   }
 
+  onSelectedValue(value) {
+    console.log('selected value: ', value);
+  }
+
   render() {
-    const items = [
-      {label: 'Basra', value: 'Basra'},
-      {label: 'Zaandam', value: 'Zaandam'},
-      {label: 'Almere', value: 'Almere'},
-      {label: 'Amsterdam', value: 'Amsterdam'},
-    ];
-    const pickerItems = items.map((item, index) => (
+    const pickerItems = this.props.pickerData.map((item, index) => (
       <Picker.Item key={index} label={item.label} value={item.value} />
     ));
     return (
       <Picker
-        selectedValue={this.state.city}
+        selectedValue={this.state.value}
         onValueChange={(value) => this.onValueChange(value)}
         mode="dropdown"
         style={styles.picker}
         itemStyle={styles.pickerItem}>
         {pickerItems}
-        {/* <Picker.Item label="Zaandam" value="Zaandam" />
-        <Picker.Item label="Amsterdam" value="Amsterdam" />
-        <Picker.Item label="Almere" value="Almere" /> */}
       </Picker>
     );
   }
