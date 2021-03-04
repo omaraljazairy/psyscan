@@ -23,4 +23,15 @@ export default {
   percent_25: '25%',
   percent_50: '50%',
   percent_100: '100%',
+  advanced_testing_intro:
+    'El texto completo contiene cinco secciones diferentes. Para llegar mejor a usted, se recomienda completar los cinco',
+  your_activity: 'Tu actividad',
+  text_analysis: 'Análisis de texto',
+  audio_analysis: 'Análisis de audio',
+  face_scan: 'Escaneo facial',
+  video_analysis: 'Análisis de video',
+  your_activity_description:
+    'puede conectar psyscan con sus datos de salud y las redes sociales monitoreadas diariamente en su teléfono',
+  connect: 'Conectar',
+  complete_manually: 'Completar manualmente',
 };

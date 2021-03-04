@@ -23,4 +23,15 @@ export default {
   percent_25: '25%',
   percent_50: '50%',
   percent_100: '100%',
+  advanced_testing_intro:
+    'De volledige tekst bevat vijf verschillende secties. \nOm beter bij je te komen, \nis het aan te raden om ze \nalle vijf te voltooien',
+  your_activity: 'Jouw activiteit',
+  text_analysis: 'Tekstanalyse',
+  audio_analysis: 'Audio-analyse',
+  face_scan: 'Gezichtsscan',
+  video_analysis: 'Video-analyse',
+  your_activity_description:
+    'u kunt psyscan verbinden \nmet uw gezondheidsgegevens en sociale \nmedia die dagelijks op uw telefoon worden gecontroleerd',
+  connect: 'Aansluiten',
+  complete_manually: 'Handmatig invullen',
 };

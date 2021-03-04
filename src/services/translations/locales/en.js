@@ -23,4 +23,15 @@ export default {
   percent_25: '25%',
   percent_50: '50%',
   percent_100: '100%',
+  advanced_testing_intro:
+    'Full test contains fice different sections. \nTo get to you better, \nit is recommended to complete \nall five of them',
+  your_activity: 'Your activity',
+  text_analysis: 'Text analysis',
+  audio_analysis: 'Audio analysis',
+  face_scan: 'Face scan',
+  video_analysis: 'Video analysis',
+  your_activity_description:
+    'You can connect psyscan \nwith your health data and social \n media monitorized daily \non your phone',
+  connect: 'Connect',
+  complete_manually: 'Complete manually',
 };

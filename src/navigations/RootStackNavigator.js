@@ -7,7 +7,11 @@ import Register from '../screens/Register';
 import Menu from '../screens/Menu';
 import InfoForm from '../screens/preliminary/InfoForm';
 import Orientations from '../screens/preliminary/Orientations';
+// advanced testing secion screens
 import SectionMenu from '../screens/advanced/SectionsMenu';
+import YourActivity from '../screens/advanced/YourActivity';
+import YourActivityResults from '../screens/advanced/YourActivityResults';
+
 import MainPage from '../screens/indepth/MainPage';
 
 const RootStack = createStackNavigator();
@@ -23,6 +27,12 @@ const RootStackNavigator = ({navigation}) => (
     <RootStack.Screen name="InfoFormScreen" component={InfoForm} />
     <RootStack.Screen name="OrientationsScreen" component={Orientations} />
     <RootStack.Screen name="SectionMenuScreen" component={SectionMenu} />
+    <RootStack.Screen name="YourActivityScreen" component={YourActivity} />
+    <RootStack.Screen
+      name="YourActivityResultsScreen"
+      component={YourActivityResults}
+    />
+
     <RootStack.Screen name="MainPageScreen" component={MainPage} />
   </RootStack.Navigator>
 );

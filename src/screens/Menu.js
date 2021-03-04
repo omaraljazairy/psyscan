@@ -54,7 +54,7 @@ class Menu extends Component {
             <View style={styles.tile}>
               <Text>I disappear sometimes!</Text>
               <BlockButton
-                btnSize="small"
+                // btnSize="small"
                 text="start_the_test"
                 screenName="InfoFormScreen"
               />
@@ -84,7 +84,7 @@ class Menu extends Component {
                 testing.
               </Text>
               <BlockButton
-                btnSize="small"
+                // btnSize="small"
                 text="start_the_test"
                 screenName="SectionMenuScreen"
               />
@@ -111,7 +111,7 @@ class Menu extends Component {
             <View style={styles.tile}>
               <Text>A me gusto In Depth Analyses.</Text>
               <BlockButton
-                btnSize="small"
+                // btnSize="small"
                 text="start_the_test"
                 screenName="MainPageScreen"
               />
@@ -146,6 +146,8 @@ const styles = StyleSheet.create({
     backgroundColor: 'lightgrey',
     borderWidth: 0.5,
     borderColor: '#d6d7da',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
 
