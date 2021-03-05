@@ -4,6 +4,9 @@ export default {
     BLACK: '#000',
     CERULEAN: '#0c5980',
     FAUX_PACIFIC_BLUE: '#20a2cb',
+    BRIGHT_TURQUOISE: '#39f1f4',
+    PURPLE: '#633c90',
+    EASTERN_BLUE: '#2094be',
   },
   FONT: {
     STYLE: 'normal',

@@ -8,7 +8,7 @@ const BlockButton = (props) => {
   const navigation = useNavigation();
   const screenName = props.screenName;
   const text = props.text;
-  const size = Platform.OS === 'ios' ? 18 : 15;
+  const size = Platform.OS === 'ios' ? 15 : 13;
   const btnSize = props.btnSize;
 
   return (

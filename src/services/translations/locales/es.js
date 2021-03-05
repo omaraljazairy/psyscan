@@ -34,4 +34,12 @@ export default {
     'puede conectar psyscan con sus datos de salud y las redes sociales monitoreadas diariamente en su teléfono',
   connect: 'Conectar',
   complete_manually: 'Completar manualmente',
+  physical_activity_last_2_days: 'Actividad física últimos 2 días',
+  social_activity_last_2_days: 'Actividad social últimos 2 días',
+  average_hours_of_sleep: 'Horas promedio de sueño',
+  elementary: 'Elemental',
+  intermediate: 'Intermedio',
+  advanced: 'Avanzado',
+  save: 'Guardar',
+  analyse_see_results: 'Analizar \nver resultado',
 };

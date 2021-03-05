@@ -34,4 +34,12 @@ export default {
     'You can connect psyscan \nwith your health data and social \n media monitorized daily \non your phone',
   connect: 'Connect',
   complete_manually: 'Complete manually',
+  physical_activity_last_2_days: 'Physical activity last 2 days',
+  social_activity_last_2_days: 'Social activity last 2 days',
+  average_hours_of_sleep: 'Average hours of sleep',
+  elementary: 'Elementary',
+  intermediate: 'Intermediate',
+  advanced: 'Advanced',
+  save: 'Save',
+  analyse_see_results: 'Analyse \nsee result',
 };

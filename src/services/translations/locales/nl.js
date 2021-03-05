@@ -34,4 +34,12 @@ export default {
     'u kunt psyscan verbinden \nmet uw gezondheidsgegevens en sociale \nmedia die dagelijks op uw telefoon worden gecontroleerd',
   connect: 'Aansluiten',
   complete_manually: 'Handmatig invullen',
+  physical_activity_last_2_days: 'Lichamelijke activiteit duurt 2 dagen',
+  social_activity_last_2_days: 'Sociale activiteit afgelopen 2 dagen',
+  average_hours_of_sleep: 'Gemiddeld aantal uren slaap',
+  elementary: 'Elementair',
+  intermediate: 'Gemiddeld',
+  advanced: 'Geavanceerd',
+  save: 'Opslaan',
+  analyse_see_results: 'Analyse \nzie resultaat',
 };
