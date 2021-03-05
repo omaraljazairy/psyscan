@@ -11,18 +11,10 @@ import Bottom from '../../components/Bottoms/Bottom';
 import CONSTANTS from '../../constants/styles';
 import CustomButton from '../../components/buttons/CustomButton';
 
-class TextAnalysisThird extends Component {
-  state = {
-    userInput: null,
-  };
-
-  setText(value) {
-    this.setState({userInput: value});
-    console.log('value from textarea: ', value);
-  }
-
+class TextAnalysisFourth extends Component {
   render() {
-    const dataProps = {input: this.state.userInput};
+    const {input} = this.props.route.params;
+    console.log('myText received: ', input);
     return (
       <SafeAreaView style={styles.container}>
         <Header text={'advanced_testing'} />
@@ -32,23 +24,33 @@ class TextAnalysisThird extends Component {
               style={styles.textarea}
               numberOfLines={100}
               multiline={true}
-              onChangeText={(text) => this.setText(text)}
-              value={this.state.userInput}
+              value={input}
             />
           </View>
           <View style={styles.lastButtonsView}>
-            <CustomButton
-              text={'save'}
-              screenName="TextAnalysisFourthScreen"
-              btnWidth={100}
-              navProps={dataProps}
-            />
+            <View style={styles.lastButtonView}>
+              <CustomButton
+                text={'save'}
+                screenName="TextAnalysisFourthScreen"
+                btnWidth={130}
+                txtBtnHeight={50}
+                txtPaddingVertical={15}
+              />
+            </View>
+            <View style={styles.lastButtonView}>
+              <CustomButton
+                text={'analyse_see_results'}
+                screenName="TextAnalysisFourthScreen"
+                btnWidth={130}
+                txtBtnHeight={50}
+              />
+            </View>
           </View>
         </View>
         <Bottom
           text="PSYSCAN"
-          leftScreenName="TextAnalysisSecondScreen"
-          rightScreenName="TextAnalysisFourthScreen"
+          leftScreenName="TextAnalysisThirdScreen"
+          rightScreenName="MenuScreen"
         />
       </SafeAreaView>
     );
@@ -80,8 +82,14 @@ const styles = StyleSheet.create({
     color: CONSTANTS.COLOR.WHITE,
   },
   lastButtonsView: {
+    flexDirection: 'row',
+    // justifyContent: 'space-evenly',
+    // alignContent: 'space-between',
+    // width: '100%',
+  },
+  lastButtonView: {
     padding: 10,
   },
 });
 
-export default TextAnalysisThird;
+export default TextAnalysisFourth;
