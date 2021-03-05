@@ -33,6 +33,8 @@ export default {
   your_activity_description:
     'You can connect psyscan \nwith your health data and social \n media monitorized daily \non your phone',
   connect: 'Connect',
+  connect_info:
+    'you can connect psyscan \nto social applications on your phone \nto monitorize your activity ',
   complete_manually: 'Complete manually',
   physical_activity_last_2_days: 'Physical activity last 2 days',
   social_activity_last_2_days: 'Social activity last 2 days',
@@ -40,6 +42,8 @@ export default {
   elementary: 'Elementary',
   intermediate: 'Intermediate',
   advanced: 'Advanced',
+  advice_text:
+    "You need text written by the person whose \n personality you're interested in. It should \ncontain words about every day experiences, \nthoughts, and responses. \nYou can play with the demo with as little as \n100 words, but for a more accurate analysis, \n you need more words.",
   save: 'Save',
   start_writing: 'Start Writing',
   analyse_see_results: 'Analyse \nsee result',
@@ -48,4 +52,5 @@ export default {
   is_it_your_mothertongue_language: 'Is it your mothertongue language',
   yes: 'Yes',
   no: 'No',
+  or: 'Or',
 };

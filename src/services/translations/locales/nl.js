@@ -33,6 +33,8 @@ export default {
   your_activity_description:
     'u kunt psyscan verbinden \nmet uw gezondheidsgegevens en sociale \nmedia die dagelijks op uw telefoon worden gecontroleerd',
   connect: 'Aansluiten',
+  connect_info:
+    'u kunt psyscan \nverbinden met sociale applicaties op uw telefoon \nom uw activiteit te volgen',
   complete_manually: 'Handmatig invullen',
   physical_activity_last_2_days: 'Lichamelijke activiteit duurt 2 dagen',
   social_activity_last_2_days: 'Sociale activiteit afgelopen 2 dagen',
@@ -40,6 +42,8 @@ export default {
   elementary: 'Elementair',
   intermediate: 'Gemiddeld',
   advanced: 'Geavanceerd',
+  advice_text:
+    'Je hebt tekst nodig die is geschreven door de persoon in wiens \npersoonlijkheid je geïnteresseerd bent. Het moet woorden bevatten over dagelijkse ervaringen, \ngedachten en reacties. \nJe kunt met de demo spelen met slechts \n100 woorden, maar voor een nauwkeurigere analyse \nheb je meer woorden nodig.',
   save: 'Opslaan',
   start_writing: 'Begin met schrijven',
   analyse_see_results: 'Analyse \nzie resultaat',
@@ -48,4 +52,5 @@ export default {
   is_it_your_mothertongue_language: 'Is het uw moedertaal',
   yes: 'Ja',
   no: 'Nee',
+  or: 'Of',
 };

@@ -12,6 +12,7 @@ import SectionMenu from '../screens/advanced/SectionsMenu';
 import YourActivity from '../screens/advanced/YourActivity';
 import YourActivityResults from '../screens/advanced/YourActivityResults';
 import TextAnalysisFirst from '../screens/advanced/TextAnalysisFirst';
+import TextAnalysisSecond from '../screens/advanced/TextAnalysisSecond';
 
 import MainPage from '../screens/indepth/MainPage';
 
@@ -33,7 +34,10 @@ const RootStackNavigator = ({navigation}) => (
       name="TextAnalysisFirstScreen"
       component={TextAnalysisFirst}
     />
-
+    <RootStack.Screen
+      name="TextAnalysisSecondScreen"
+      component={TextAnalysisSecond}
+    />
     <RootStack.Screen
       name="YourActivityResultsScreen"
       component={YourActivityResults}

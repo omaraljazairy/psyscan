@@ -121,7 +121,7 @@ class TextAnalysisFirst extends Component {
         <Bottom
           text="PSYSCAN"
           leftScreenName="MenuScreen"
-          rightScreenName="OrientationsScreen"
+          rightScreenName="TextAnalysisSecondScreen"
         />
       </SafeAreaView>
     );

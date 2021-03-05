@@ -33,6 +33,8 @@ export default {
   your_activity_description:
     'puede conectar psyscan con sus datos de salud y las redes sociales monitoreadas diariamente en su teléfono',
   connect: 'Conectar',
+  connect_info:
+    'puede conectar psyscan \na aplicaciones sociales en su teléfono \npara monitorear su actividad ',
   complete_manually: 'Completar manualmente',
   physical_activity_last_2_days: 'Actividad física últimos 2 días',
   social_activity_last_2_days: 'Actividad social últimos 2 días',
@@ -40,6 +42,8 @@ export default {
   elementary: 'Elemental',
   intermediate: 'Intermedio',
   advanced: 'Avanzado',
+  advice_text:
+    'Necesitas texto escrito por la persona \n cuya personalidad te interesa. Debe \n contener palabras sobre experiencias, pensamientos y respuestas cotidianos.  n Puede jugar con la demostración con tan solo \n 100 palabras, pero para un análisis más preciso, \n necesita más palabras.',
   save: 'Guardar',
   start_writing: 'Empieza a escribir',
   analyse_see_results: 'Analizar \nver resultado',
@@ -48,4 +52,5 @@ export default {
   is_it_your_mothertongue_language: '¿Es tu lengua materna?',
   yes: 'Si',
   no: 'No',
+  or: 'O',
 };
