@@ -4,7 +4,8 @@ import Header from '../../components/Headers/Header';
 import Bottom from '../../components/Bottoms/Bottom';
 import CONSTANTS from '../../constants/styles';
 import CustomButtonFunction from '../../components/buttons/CustomButtonFunction';
-import BlockButton from '../../components/buttons/BlockButton';
+// import BlockButton from '../../components/buttons/BlockButton';
+import CustomButton from '../../components/buttons/CustomButton';
 import I18n from '../../services/translations/translation';
 import {Icon} from 'native-base';
 
@@ -40,13 +41,16 @@ class TextAnalysisSecond extends Component {
           </View>
           <Text style={styles.or}>{I18n.t('or')}</Text>
           <View style={styles.lastButtonsView}>
-            <BlockButton text={'start_writing'} />
+            <CustomButton
+              text={'start_writing'}
+              screenName="TextAnalysisThirdScreen"
+            />
           </View>
         </View>
         <Bottom
           text="PSYSCAN"
-          leftScreenName="MenuScreen"
-          rightScreenName="OrientationsScreen"
+          leftScreenName="TextAnalysisFirstScreen"
+          rightScreenName="TextAnalysisThirdScreen"
         />
       </SafeAreaView>
     );

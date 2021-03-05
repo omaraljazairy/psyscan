@@ -8,13 +8,23 @@ const CustomButton = (props) => {
   const text = props.text;
   const navigation = useNavigation();
   const screenName = props.screenName;
+  const btnWidth = props.btnWidth ? props.btnWidth : 300;
+  const btnHeight = props.btnHeight ? props.btnHeight : 30;
+  const bgColor = props.bgColor ? props.bgColor : CONSTANTS.COLOR.EASTERN_BLUE;
+  const devicebtnHeight = Platform.OS === 'ios' ? btnHeight : btnHeight - 2;
 
   return (
     <View>
       <TouchableOpacity
-        style={styles.button}
-        onPress={() => navigation.navigate(screenName)}>
-        <Text style={styles.text}>{I18n.t(text).toUpperCase()}</Text>
+        style={{...styles.button, width: btnWidth, height: devicebtnHeight}}
+        onPress={
+          screenName
+            ? () => navigation.navigate(screenName)
+            : () => props.customFunc()
+        }>
+        <Text style={{...styles.text, backgroundColor: bgColor}}>
+          {I18n.t(text).toUpperCase()}
+        </Text>
       </TouchableOpacity>
     </View>
   );
@@ -25,14 +35,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   button: {
-    backgroundColor: CONSTANTS.COLOR.EASTERN_BLUE,
-    height: Platform.OS === 'ios' ? 30 : 28,
-    width: 300,
-    borderRadius: 5,
+    // backgroundColor: CONSTANTS.COLOR.EASTERN_BLUE,
+    // height: Platform.OS === 'ios' ? 30 : 28,
+    // width: 300,
+    borderRadius: 10,
     textAlign: 'center',
   },
   text: {
-    backgroundColor: CONSTANTS.COLOR.EASTERN_BLUE,
+    // backgroundColor: CONSTANTS.COLOR.EASTERN_BLUE,
     textAlign: 'center',
     fontSize: Platform.OS === 'ios' ? 15 : 13,
     fontWeight: 'bold',
