@@ -3,7 +3,7 @@ import {SafeAreaView, StyleSheet, View, Platform} from 'react-native';
 import SimplePicker from '../../components/pickers/SimplePicker';
 import Header from '../../components/Headers/Header';
 import Bottom from '../../components/Bottoms/Bottom';
-import TextFieldLable from '../../components/inputs/TextFieldLable';
+// import TextFieldLable from '../../components/inputs/TextFieldLable';
 import EmptyButton from '../../components/buttons/EmptyButton';
 import {
   location_list,

@@ -10,7 +10,7 @@ import {
 import Header from '../../components/Headers/Header';
 import Bottom from '../../components/Bottoms/Bottom';
 import BlockButton from '../../components/buttons/BlockButton';
-import Label from '../../components/labels/Label';
+import CustomLabel from '../../components/labels/CustomLabel';
 import CONSTANTS from '../../constants/styles';
 import I18n from '../../../src/services/translations/translation';
 import {Slider} from 'galio-framework';
@@ -30,8 +30,8 @@ class YourActivityResults extends Component {
           <Text style={styles.your_activityText}>
             {I18n.t('your_activity').toUpperCase()}
           </Text>
-          <View style={styles.labelView}>
-            <Label text="physical_activity_last_2_days" />
+          <View style={styles.CustomLabelView}>
+            <CustomLabel text="physical_activity_last_2_days" />
           </View>
           <View style={styles.sliderView}>
             <Slider
@@ -50,8 +50,8 @@ class YourActivityResults extends Component {
               <Text style={styles.sliderText}>{I18n.t('advanced')}</Text>
             </View>
           </View>
-          <View style={styles.labelView}>
-            <Label text="social_activity_last_2_days" />
+          <View style={styles.CustomLabelView}>
+            <CustomLabel text="social_activity_last_2_days" />
           </View>
           <View style={styles.sliderView}>
             <Slider
@@ -71,8 +71,8 @@ class YourActivityResults extends Component {
             </View>
           </View>
 
-          <View style={styles.labelView}>
-            <Label text="average_hours_of_sleep" />
+          <View style={styles.CustomLabelView}>
+            <CustomLabel text="average_hours_of_sleep" />
           </View>
           <View style={styles.sliderView}>
             <Slider
@@ -107,7 +107,7 @@ class YourActivityResults extends Component {
         <Bottom
           text="PSYSCAN"
           leftScreenName="YourActivityScreen"
-          rightScreenName="SectionMenuScreen"
+          rightScreenName="TextAnalysisFirstScreen"
         />
       </SafeAreaView>
     );
@@ -124,7 +124,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     paddingBottom: Platform.OS === 'ios' ? 5 : 1,
-    paddingTop: Platform.OS === 'ios' ? '1%' : '1%',
+    paddingTop: '1%',
   },
   contactImageView: {
     paddingBottom: 10,
@@ -141,7 +141,7 @@ const styles = StyleSheet.create({
         : CONSTANTS.FONT.HEADER_H1_ANDROID,
     textAlign: 'center',
   },
-  labelView: {
+  CustomLabelView: {
     paddingTop: 15,
   },
   sliderView: {

@@ -7,6 +7,7 @@ export default {
     BRIGHT_TURQUOISE: '#39f1f4',
     PURPLE: '#633c90',
     EASTERN_BLUE: '#2094be',
+    ROCK_BLUE: '#9cbbca',
   },
   FONT: {
     STYLE: 'normal',

@@ -3,7 +3,7 @@ import {StyleSheet, View, Platform, Text} from 'react-native';
 import I18n from '../../services/translations/translation';
 import CONSTANTS from '../../constants/styles';
 
-const Label = (props) => {
+const CustomLabel = (props) => {
   const text = props.text;
 
   return (
@@ -36,4 +36,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Label;
+export default CustomLabel;

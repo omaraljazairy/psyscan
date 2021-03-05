@@ -41,5 +41,11 @@ export default {
   intermediate: 'Gemiddeld',
   advanced: 'Geavanceerd',
   save: 'Opslaan',
+  start_writing: 'Begin met schrijven',
   analyse_see_results: 'Analyse \nzie resultaat',
+  language: 'Taal',
+  language_level: 'Taalniveau',
+  is_it_your_mothertongue_language: 'Is het uw moedertaal',
+  yes: 'Ja',
+  no: 'Nee',
 };

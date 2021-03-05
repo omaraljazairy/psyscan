@@ -41,5 +41,11 @@ export default {
   intermediate: 'Intermedio',
   advanced: 'Avanzado',
   save: 'Guardar',
+  start_writing: 'Empieza a escribir',
   analyse_see_results: 'Analizar \nver resultado',
+  language: 'idioma',
+  language_level: 'Nivel de idioma',
+  is_it_your_mothertongue_language: '¿Es tu lengua materna?',
+  yes: 'Si',
+  no: 'No',
 };

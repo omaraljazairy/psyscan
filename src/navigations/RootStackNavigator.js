@@ -11,6 +11,7 @@ import Orientations from '../screens/preliminary/Orientations';
 import SectionMenu from '../screens/advanced/SectionsMenu';
 import YourActivity from '../screens/advanced/YourActivity';
 import YourActivityResults from '../screens/advanced/YourActivityResults';
+import TextAnalysisFirst from '../screens/advanced/TextAnalysisFirst';
 
 import MainPage from '../screens/indepth/MainPage';
 
@@ -28,6 +29,11 @@ const RootStackNavigator = ({navigation}) => (
     <RootStack.Screen name="OrientationsScreen" component={Orientations} />
     <RootStack.Screen name="SectionMenuScreen" component={SectionMenu} />
     <RootStack.Screen name="YourActivityScreen" component={YourActivity} />
+    <RootStack.Screen
+      name="TextAnalysisFirstScreen"
+      component={TextAnalysisFirst}
+    />
+
     <RootStack.Screen
       name="YourActivityResultsScreen"
       component={YourActivityResults}

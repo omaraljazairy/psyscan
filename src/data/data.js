@@ -39,3 +39,10 @@ export const relationship_status_list = [
   {label: 'Married', value: 'Married'},
   {label: 'Engaged', value: 'Engaged'},
 ];
+
+export const language = [
+  {label: 'Choose The Language', value: undefined},
+  {label: 'Italian', value: 'Italian'},
+  {label: 'English', value: 'English'},
+  {label: 'Russian', value: 'Russian'},
+];

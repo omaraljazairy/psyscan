@@ -25,7 +25,7 @@ class SectionMenu extends Component {
             <BlockButton
               // btnSize="small"
               text="text_analysis"
-              screenName="MainPageScreen"
+              screenName="TextAnalysisFirstScreen"
             />
             <BlockButton
               // btnSize="small"
