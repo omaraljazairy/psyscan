@@ -5,10 +5,21 @@ import CONSTANTS from '../../constants/styles';
 
 const CustomLabel = (props) => {
   const text = props.text;
+  const textFontWeight = props.textFontWeight ? props.textFontWeight : 'bold';
+  const textFontSize = props.textFontSize ? props.textFontSize : 15;
+  const deviceFontSize =
+    Platform.OS === 'ios' ? textFontSize : textFontSize - 2;
 
   return (
     <View>
-      <Text style={styles.text}>{I18n.t(text).toUpperCase()}</Text>
+      <Text
+        style={{
+          ...styles.text,
+          fontSize: deviceFontSize,
+          fontWeight: textFontWeight,
+        }}>
+        {I18n.t(text).toUpperCase()}
+      </Text>
     </View>
   );
 };
@@ -29,8 +40,6 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     width: 300,
     textAlign: 'center',
-    fontSize: Platform.OS === 'ios' ? 15 : 13,
-    fontWeight: 'bold',
     color: CONSTANTS.COLOR.WHITE,
     padding: Platform.OS === 'ios' ? 6 : 4,
   },

@@ -4,6 +4,7 @@ import Header from '../../components/Headers/Header';
 import Bottom from '../../components/Bottoms/Bottom';
 import CONSTANTS from '../../constants/styles';
 import CustomButton from '../../components/buttons/CustomButton';
+import CustomLabel from '../../components/labels/CustomLabel';
 import I18n from '../../services/translations/translation';
 import {Slider} from 'galio-framework';
 import {Icon} from 'native-base';
@@ -69,13 +70,20 @@ class TextAnalysisResultThird extends Component {
   }
 
   render() {
+    const label = this.state.showToast1 ? (
+      <CustomLabel
+        text={'your_result_slider'}
+        textFontSize={8}
+        textFontWeight={'400'}
+      />
+    ) : null;
+    const arrowIconName = this.state.showToast1
+      ? 'arrow-down-bold'
+      : 'arrow-up-bold';
     return (
       <SafeAreaView style={styles.container}>
         <Header text={'text_analysis'} />
         <View style={styles.bodyView}>
-          {/* <Toast isShow={true} positionIndicator="center" color="success">
-            This is a top positioned toast
-          </Toast> */}
           <Text style={styles.headerText}>
             {I18n.t('your_results').toUpperCase()}
           </Text>
@@ -86,7 +94,7 @@ class TextAnalysisResultThird extends Component {
             <View style={styles.sliderTrackText}>
               <Icon
                 type="MaterialCommunityIcons"
-                name="arrow-up-bold"
+                name={arrowIconName}
                 style={styles.icon}
                 onPress={() => this.onSetToast(1)}
               />
@@ -109,6 +117,7 @@ class TextAnalysisResultThird extends Component {
                 {String(this.state.sliderPercentage1) + '%'}
               </Text>
             </View>
+            {label}
           </View>
           <View style={styles.sliderView}>
             <View style={styles.sliderTrackText}>

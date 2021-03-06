@@ -33,7 +33,7 @@ export default {
     'Higher: Value getting along with others. They have \nmore optimistic view of human nature. Lower: Value \nselfinterests over others. They are more skeptical of \nothers motives.',
   advanced_testing_intro:
     'Full test contains fice different sections. \nTo get to you better, \nit is recommended to complete \nall five of them',
-  text_analysis: 'Text analysis',
+  text_analysis: 'Text \nanalysis',
   audio_analysis: 'Audio analysis',
   face_scan: 'Face scan',
   video_analysis: 'Video analysis',
