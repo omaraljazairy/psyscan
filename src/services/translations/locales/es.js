@@ -35,6 +35,8 @@ export default {
   your_results: 'Tus resultados',
   your_results_description:
     'Eres útil y analítico. \nEres consciente emocionalmente: eres consciente  \nde tus sentimientos y de cómo expresarlos. Eres empático: sientes lo que sienten los demás y \neres compasivo con ellos. Y eres  naltruista: te sientes satisfecho cuando ayudas \na otros, y harás todo lo posible para hacerlo. \nSus elecciones están impulsadas por un deseo de \nbienestar. Considera tanto la tradición como la independencia para orientar gran parte de lo que hace.  NRespetas mucho a los grupos a los que perteneces y \nsigue su guía.',
+  you_are_likely: 'es probable que...',
+  you_are_unlikely: 'Eres improbable...',
   connect: 'Conectar',
   connect_info:
     'puede conectar psyscan \na aplicaciones sociales en su teléfono \npara monitorear su actividad ',

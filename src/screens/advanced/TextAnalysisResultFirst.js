@@ -30,7 +30,7 @@ class TextAnalysisResultFirst extends Component {
           <View style={styles.lastButtonsView}>
             <CustomButton
               text={'more_details'}
-              screenName="TextAnalysisThirdScreen"
+              screenName="TextAnalysisResultSecondScreen"
               txtBtnHeight={50}
               txtPaddingVertical={15}
               btnWidth={150}
@@ -40,7 +40,7 @@ class TextAnalysisResultFirst extends Component {
         <Bottom
           text="PSYSCAN"
           leftScreenName="TextAnalysisFourthScreen"
-          rightScreenName="MenuScreen"
+          rightScreenName="TextAnalysisResultSecondScreen"
         />
       </SafeAreaView>
     );

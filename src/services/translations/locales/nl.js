@@ -35,6 +35,8 @@ export default {
   your_results: 'Jouw resultaten',
   your_results_description:
     'Je bent behulpzaam en analytisch. \nJe bent emotioneel bewust: je bent je bewust van \nje gevoelens en hoe je ze kunt uiten. Je bent empathisch: je voelt wat anderen voelen en \nhebt medelijden met hen. En je bent \naltruïstisch: je voelt je voldaan wanneer je anderen helpt, en doet er alles aan om dat te doen. \nUw keuzes worden gedreven door een verlangen naar \n welzijn. \nje beschouwt zowel traditie als onafhankelijkheid als leidraad voor een groot deel van wat je doet. Je respecteert de groepen waartoe je behoort zeer en volgt hun richtlijnen.',
+  you_are_likely: 'je bent waarschijnlijk...',
+  you_are_unlikely: 'U bent onwaarschijnlijk...',
   connect: 'Aansluiten',
   connect_info:
     'u kunt psyscan \nverbinden met sociale applicaties op uw telefoon \nom uw activiteit te volgen',
