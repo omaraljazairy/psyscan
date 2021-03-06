@@ -8,6 +8,7 @@ export default {
     PURPLE: '#633c90',
     EASTERN_BLUE: '#2094be',
     ROCK_BLUE: '#9cbbca',
+    MATISSE: '#1c5991',
   },
   FONT: {
     STYLE: 'normal',

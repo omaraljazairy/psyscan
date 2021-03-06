@@ -31,7 +31,7 @@ class TextAnalysisFourth extends Component {
             <View style={styles.lastButtonView}>
               <CustomButton
                 text={'save'}
-                screenName="TextAnalysisFourthScreen"
+                screenName="TextAnalysisResultFirstScreen"
                 btnWidth={130}
                 txtBtnHeight={50}
                 txtPaddingVertical={15}
@@ -40,7 +40,7 @@ class TextAnalysisFourth extends Component {
             <View style={styles.lastButtonView}>
               <CustomButton
                 text={'analyse_see_results'}
-                screenName="TextAnalysisFourthScreen"
+                screenName="TextAnalysisResultFirstScreen"
                 btnWidth={130}
                 txtBtnHeight={50}
               />
@@ -50,7 +50,7 @@ class TextAnalysisFourth extends Component {
         <Bottom
           text="PSYSCAN"
           leftScreenName="TextAnalysisThirdScreen"
-          rightScreenName="MenuScreen"
+          rightScreenName="TextAnalysisResultFirstScreen"
         />
       </SafeAreaView>
     );

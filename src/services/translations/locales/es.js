@@ -25,13 +25,16 @@ export default {
   percent_100: '100%',
   advanced_testing_intro:
     'El texto completo contiene cinco secciones diferentes. Para llegar mejor a usted, se recomienda completar los cinco',
-  your_activity: 'Tu actividad',
   text_analysis: 'Análisis de texto',
   audio_analysis: 'Análisis de audio',
   face_scan: 'Escaneo facial',
   video_analysis: 'Análisis de video',
+  your_activity: 'Tu actividad',
   your_activity_description:
     'puede conectar psyscan con sus datos de salud y las redes sociales monitoreadas diariamente en su teléfono',
+  your_results: 'Tus resultados',
+  your_results_description:
+    'Eres útil y analítico. \nEres consciente emocionalmente: eres consciente  \nde tus sentimientos y de cómo expresarlos. Eres empático: sientes lo que sienten los demás y \neres compasivo con ellos. Y eres  naltruista: te sientes satisfecho cuando ayudas \na otros, y harás todo lo posible para hacerlo. \nSus elecciones están impulsadas por un deseo de \nbienestar. Considera tanto la tradición como la independencia para orientar gran parte de lo que hace.  NRespetas mucho a los grupos a los que perteneces y \nsigue su guía.',
   connect: 'Conectar',
   connect_info:
     'puede conectar psyscan \na aplicaciones sociales en su teléfono \npara monitorear su actividad ',
@@ -53,4 +56,7 @@ export default {
   yes: 'Si',
   no: 'No',
   or: 'O',
+  more_details: 'Más detalles',
+  words_analyzed: '15128 Palabras analizadas',
+  very_strong_analysis: 'Análisis muy fuerte',
 };

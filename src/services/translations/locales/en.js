@@ -25,13 +25,16 @@ export default {
   percent_100: '100%',
   advanced_testing_intro:
     'Full test contains fice different sections. \nTo get to you better, \nit is recommended to complete \nall five of them',
-  your_activity: 'Your activity',
   text_analysis: 'Text analysis',
   audio_analysis: 'Audio analysis',
   face_scan: 'Face scan',
   video_analysis: 'Video analysis',
+  your_activity: 'Your activity',
   your_activity_description:
     'You can connect psyscan \nwith your health data and social \n media monitorized daily \non your phone',
+  your_results: 'Your results',
+  your_results_description:
+    'You are helpful and analytical. \nYou are emotionally aware: you are aware of \nyour feelings and how to express them. You \nare empathetic: you feel what others feel and \nare compassionate towards them. And you are \naltruistic: you feel fulfilled when helping \nothers, and will go out of your way to do so. \nYour choices are driven by a desire for \nwell-being. \nyou consider both tradition and indepen-\ndence to guide a large part of what you do. You \nhighly respect the groups you belong to and \nfollow their guidance.',
   connect: 'Connect',
   connect_info:
     'you can connect psyscan \nto social applications on your phone \nto monitorize your activity ',
@@ -53,4 +56,8 @@ export default {
   yes: 'Yes',
   no: 'No',
   or: 'Or',
+  more_details: 'More details',
+  words_analyzed: '15128 Words analyzed',
+  very_strong_analysis: 'Very strong analysis',
+
 };
