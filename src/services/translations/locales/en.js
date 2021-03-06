@@ -1,42 +1,97 @@
 export default {
+  // A
+  advanced_testing: 'Advanced testing',
+  agreeableness: 'Agreeableness',
+  achievement_striving: 'Achievement Striving',
+  advanced_testing_intro:
+    'Full test contains fice different sections. \nTo get to you better, \nit is recommended to complete \nall five of them',
+  audio_analysis: 'Audio analysis',
+  average_hours_of_sleep: 'Average hours of sleep',
+  advanced: 'Advanced',
+  advice_text:
+    "You need text written by the person whose \n personality you're interested in. It should \ncontain words about every day experiences, \nthoughts, and responses. \nYou can play with the demo with as little as \n100 words, but for a more accurate analysis, \n you need more words.",
+  analyse_see_results: 'Analyse \nsee result',
+  // B
+
+  // C
+  conscientiousness: 'Conscientiousness',
+  connect: 'Connect',
+  connect_info:
+    'you can connect psyscan \nto social applications on your phone \nto monitorize your activity ',
+  complete_manually: 'Complete manually',
+  // D
+  dutifulness: 'Dutifulness',
+  // E
+  email: 'Email',
+  education: 'Education',
+  elementary: 'Elementary',
+  // F
+  forgot_password: 'Forgot Password',
+  face_scan: 'Face scan',
+  // G
+  gender: 'Gender',
+  // H
   hello: 'Hello',
-  welcome: 'Welcome to',
-  welcome_back: 'Welcome back',
+
+  // I
+  in_depth_analysis: 'In-Depth analysis',
+  intermediate: 'Intermediate',
+  is_it_your_mothertongue_language: 'Is it your mothertongue language',
+  // J
+
+  // K
+
+  // L
   login: 'Log in',
   lets_start: 'Lets start',
-  register: 'Register',
-  email: 'Email',
-  password: 'Password',
-  forgot_password: 'Forgot Password',
   let_us_know_you: 'Let us get to know you better',
-  start_the_test: 'Start the test',
-  preliminary_testing: 'Preliminary testing',
-  advanced_testing: 'Advanced testing',
-  in_depth_analysis: 'In-Depth analysis',
-  gender: 'Gender',
   location: 'Location',
+  language: 'Language',
+  language_level: 'Language level',
+  // M
+  more_details: 'More details',
+  // N
+  no: 'No',
+  // O
   occupation: 'Occupation',
-  education: 'Education',
-  race_culture: 'Race culture',
-  relationship_status: 'Relationship status',
+  or: 'Or',
+  // P
+  password: 'Password',
+  preliminary_testing: 'Preliminary testing',
   percent_0: '0%',
   percent_25: '25%',
   percent_50: '50%',
   percent_100: '100%',
   personality: 'Personality',
-  agreeableness: 'Agreeableness',
-  conscientiousness: 'Conscientiousness',
-  achievement_striving: 'Achievement Striving',
-  dutifulness: 'Dutifulness',
+  physical_activity_last_2_days: 'Physical activity last 2 days',
+  // Q
+
+  // R
+  register: 'Register',
+  race_culture: 'Race culture',
+  relationship_status: 'Relationship status',
+  // S
+  start_the_test: 'Start the test',
   self_discipline: 'Self-Discpline',
+  social_activity_last_2_days: 'Social activity last 2 days',
+  save: 'Save',
+  start_writing: 'Start Writing',
+  // T
+  text_analysis: 'Text \nanalysis',
+  // U
+
+  // V
+  video_analysis: 'Video analysis',
+  very_strong_analysis: 'Very strong analysis',
+  // W
+  welcome: 'Welcome to',
+  welcome_back: 'Welcome back',
+  words_analyzed: '15128 Words analyzed',
+  // X
+
+  // Y
   your_result_slider:
     'Higher: Value getting along with others. They have \nmore optimistic view of human nature. Lower: Value \nselfinterests over others. They are more skeptical of \nothers motives.',
-  advanced_testing_intro:
-    'Full test contains fice different sections. \nTo get to you better, \nit is recommended to complete \nall five of them',
-  text_analysis: 'Text \nanalysis',
-  audio_analysis: 'Audio analysis',
-  face_scan: 'Face scan',
-  video_analysis: 'Video analysis',
   your_activity: 'Your activity',
   your_activity_description:
     'You can connect psyscan \nwith your health data and social \n media monitorized daily \non your phone',
@@ -51,28 +106,6 @@ export default {
   your_result_bullet_4: 'Prefered using credit cards for shopping.',
   your_result_bullet_5: 'Like documentary movies',
   your_result_bullet_6: 'Attend live musical events',
-  connect: 'Connect',
-  connect_info:
-    'you can connect psyscan \nto social applications on your phone \nto monitorize your activity ',
-  complete_manually: 'Complete manually',
-  physical_activity_last_2_days: 'Physical activity last 2 days',
-  social_activity_last_2_days: 'Social activity last 2 days',
-  average_hours_of_sleep: 'Average hours of sleep',
-  elementary: 'Elementary',
-  intermediate: 'Intermediate',
-  advanced: 'Advanced',
-  advice_text:
-    "You need text written by the person whose \n personality you're interested in. It should \ncontain words about every day experiences, \nthoughts, and responses. \nYou can play with the demo with as little as \n100 words, but for a more accurate analysis, \n you need more words.",
-  save: 'Save',
-  start_writing: 'Start Writing',
-  analyse_see_results: 'Analyse \nsee result',
-  language: 'Language',
-  language_level: 'Language level',
-  is_it_your_mothertongue_language: 'Is it your mothertongue language',
   yes: 'Yes',
-  no: 'No',
-  or: 'Or',
-  more_details: 'More details',
-  words_analyzed: '15128 Words analyzed',
-  very_strong_analysis: 'Very strong analysis',
+  // Z
 };
