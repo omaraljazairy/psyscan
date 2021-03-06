@@ -23,6 +23,14 @@ export default {
   percent_25: '25%',
   percent_50: '50%',
   percent_100: '100%',
+  personality: 'Personality',
+  agreeableness: 'Agreeableness',
+  conscientiousness: 'Conscientiousness',
+  achievement_striving: 'Achievement Striving',
+  dutifulness: 'Dutifulness',
+  self_discipline: 'Self-Discpline',
+  your_result_slider:
+    'Higher: Value getting along with others. They have \nmore optimistic view of human nature. Lower: Value \nselfinterests over others. They are more skeptical of \nothers motives.',
   advanced_testing_intro:
     'Full test contains fice different sections. \nTo get to you better, \nit is recommended to complete \nall five of them',
   text_analysis: 'Text analysis',

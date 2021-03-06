@@ -17,7 +17,7 @@ class TextAnalysisFourth extends Component {
     console.log('myText received: ', input);
     return (
       <SafeAreaView style={styles.container}>
-        <Header text={'advanced_testing'} />
+        <Header text={'text_analysis'} />
         <View style={styles.bodyView}>
           <View style={styles.textareaView}>
             <TextInput

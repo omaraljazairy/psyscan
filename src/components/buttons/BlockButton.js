@@ -10,12 +10,13 @@ const BlockButton = (props) => {
   const text = props.text;
   const size = Platform.OS === 'ios' ? 15 : 13;
   const btnSize = props.btnSize;
+  const navProps = props.navProps ? props.navProps : {};
 
   return (
     <Button
       color={props.color ? props.color : '#20a2cb'}
       size={btnSize}
-      onPress={() => navigation.navigate(screenName)}>
+      onPress={() => navigation.navigate(screenName, navProps)}>
       <Text size={size} bold color="#fff">
         {I18n.t(text).toUpperCase()}
       </Text>

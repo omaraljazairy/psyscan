@@ -25,7 +25,7 @@ class TextAnalysisThird extends Component {
     const dataProps = {input: this.state.userInput};
     return (
       <SafeAreaView style={styles.container}>
-        <Header text={'advanced_testing'} />
+        <Header text={'text_analysis'} />
         <View style={styles.bodyView}>
           <View style={styles.textareaView}>
             <TextInput

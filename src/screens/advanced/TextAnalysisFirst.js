@@ -115,7 +115,10 @@ class TextAnalysisFirst extends Component {
             </View>
           </View>
           <View style={styles.lastButtonsView}>
-            <BlockButton text={'start_writing'} />
+            <BlockButton
+              screenName="TextAnalysisSecondScreen"
+              text={'start_writing'}
+            />
           </View>
         </View>
         <Bottom

@@ -8,7 +8,7 @@ const CustomButton = (props) => {
   const text = props.text;
   const navigation = useNavigation();
   const screenName = props.screenName;
-  const navProps = props.navProps ? props.navProps : {}
+  const navProps = props.navProps ? props.navProps : {};
   const btnWidth = props.btnWidth ? props.btnWidth : 300;
   const btnHeight = props.btnHeight ? props.btnHeight : 30;
   const bgColor = props.bgColor ? props.bgColor : CONSTANTS.COLOR.EASTERN_BLUE;

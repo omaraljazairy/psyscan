@@ -9,6 +9,7 @@ const Bottom = (props) => {
   const navigation = useNavigation();
   const leftScreenName = props.leftScreenName;
   const rightScreenName = props.rightScreenName;
+  const navProps = props.navProps ? props.navProps : {};
 
   return (
     <View style={styles.bottomView}>
@@ -19,7 +20,7 @@ const Bottom = (props) => {
           color={'#fff'}
           size={20}
           iconStyle={styles.icon}
-          onPress={() => navigation.navigate(leftScreenName)}
+          onPress={() => navigation.navigate(leftScreenName, navProps)}
         />
         <Button block transparent>
           <Text style={styles.text}>{text}</Text>
@@ -30,7 +31,7 @@ const Bottom = (props) => {
           color={'#fff'}
           size={20}
           iconStyle={styles.icon}
-          onPress={() => navigation.navigate(rightScreenName)}
+          onPress={() => navigation.navigate(rightScreenName, navProps)}
         />
       </View>
     </View>

@@ -17,6 +17,7 @@ import TextAnalysisThird from '../screens/advanced/TextAnalysisThird';
 import TextAnalysisFourth from '../screens/advanced/TextAnalysisFourth';
 import TextAnalysisResultFirst from '../screens/advanced/TextAnalysisResultFirst';
 import TextAnalysisResultSecond from '../screens/advanced/TextAnalysisResultSecond';
+import TextAnalysisResultThird from '../screens/advanced/TextAnalysisResultThird';
 
 import MainPage from '../screens/indepth/MainPage';
 
@@ -61,6 +62,10 @@ const RootStackNavigator = ({navigation}) => (
     <RootStack.Screen
       name="TextAnalysisResultSecondScreen"
       component={TextAnalysisResultSecond}
+    />
+    <RootStack.Screen
+      name="TextAnalysisResultThirdScreen"
+      component={TextAnalysisResultThird}
     />
 
     <RootStack.Screen name="MainPageScreen" component={MainPage} />

@@ -11,7 +11,7 @@ class TextAnalysisResultFirst extends Component {
   render() {
     return (
       <SafeAreaView style={styles.container}>
-        <Header text={'advanced_testing'} />
+        <Header text={'text_analysis'} />
         <View style={styles.bodyView}>
           <Text style={styles.headerText}>
             {I18n.t('your_results').toUpperCase()}
