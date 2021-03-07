@@ -66,12 +66,14 @@ export default {
   percent_100: '100%',
   personality: 'Personality',
   physical_activity_last_2_days: 'Physical activity last 2 days',
+  processing: 'Processing...',
   // Q
 
   // R
   register: 'Register',
   race_culture: 'Race culture',
   relationship_status: 'Relationship status',
+  recording: 'Recording',
   // S
   start_the_test: 'Start the test',
   self_discipline: 'Self-Discpline',
@@ -80,7 +82,8 @@ export default {
   start_writing: 'Start Writing',
   start_recording: 'Start Recording',
   // T
-  text_analysis: 'Text \nanalysis',
+  text_analysis: 'Text analysis',
+  tell_us_how_you_feel: 'Tell us how you feel today.',
   // U
 
   // V

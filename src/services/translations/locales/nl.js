@@ -66,14 +66,14 @@ export default {
   preliminary_testing: 'Voorafgaande testen',
   password: 'Wachtwoord',
   physical_activity_last_2_days: 'Lichamelijke activiteit duurt 2 dagen',
-
+  processing: 'Verwerken...',
   // Q
 
   // R
   register: 'Registreren',
   race_culture: 'Ras, Cultuur',
   relationship_status: 'Relatiestatus',
-
+  recording: 'Opnemen',
   // S
   save: 'Opslaan',
   start_writing: 'Begin met schrijven',
@@ -83,6 +83,7 @@ export default {
   start_recording: 'Begin met opnemen',
   // T
   text_analysis: 'Tekstanalyse',
+  tell_us_how_you_feel: 'Vertel ons hoe u zich vandaag voelt.',
   // U
 
   // V

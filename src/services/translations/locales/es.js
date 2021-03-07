@@ -66,12 +66,14 @@ export default {
   preliminary_testing: 'Prueba preliminar',
   password: 'Contraseña',
   physical_activity_last_2_days: 'Actividad física últimos 2 días',
+  processing: 'Procesando...',
   // Q
 
   // R
   race_culture: 'Raza, Cultura',
   relationship_status: 'Estado civil',
   register: 'Registrarse',
+  recording: 'Grabación',
   // S
   save: 'Guardar',
   start_writing: 'Empieza a escribir',
@@ -81,6 +83,7 @@ export default {
   start_recording: 'Iniciar la grabación',
   // T
   text_analysis: 'Análisis de texto',
+  tell_us_how_you_feel: 'Cuéntanos cómo te sientes hoy.',
   // U
 
   // V
