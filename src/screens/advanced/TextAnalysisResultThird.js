@@ -77,9 +77,10 @@ class TextAnalysisResultThird extends Component {
         textFontWeight={'400'}
       />
     ) : null;
-    const arrowIconName = this.state.showToast1
-      ? 'arrow-down-bold'
-      : 'arrow-up-bold';
+    const arrowIconNameTest = this.state.showToast1
+      ? 'keyboard-arrow-down'
+      : 'keyboard-arrow-up';
+    const arrowIconName = 'keyboard-arrow-up';
     return (
       <SafeAreaView style={styles.container}>
         <Header text={'text_analysis'} />
@@ -88,13 +89,13 @@ class TextAnalysisResultThird extends Component {
             {I18n.t('your_results').toUpperCase()}
           </Text>
           <Text style={styles.labelBoldText}>
-            {I18n.t('you_are_likely').toUpperCase()}
+            {I18n.t('personality').toUpperCase()}
           </Text>
           <View style={styles.sliderView}>
             <View style={styles.sliderTrackText}>
               <Icon
-                type="MaterialCommunityIcons"
-                name={arrowIconName}
+                type="MaterialIcons"
+                name={arrowIconNameTest}
                 style={styles.icon}
                 onPress={() => this.onSetToast(1)}
               />
@@ -122,8 +123,8 @@ class TextAnalysisResultThird extends Component {
           <View style={styles.sliderView}>
             <View style={styles.sliderTrackText}>
               <Icon
-                type="MaterialCommunityIcons"
-                name="arrow-up-bold"
+                type="MaterialIcons"
+                name={arrowIconName}
                 style={styles.icon}
               />
               <Text style={styles.sliderText}>{I18n.t('agreeableness')}</Text>
@@ -149,8 +150,8 @@ class TextAnalysisResultThird extends Component {
           <View style={styles.sliderView}>
             <View style={styles.sliderTrackText}>
               <Icon
-                type="MaterialCommunityIcons"
-                name="arrow-up-bold"
+                type="MaterialIcons"
+                name={arrowIconName}
                 style={styles.icon}
               />
               <Text style={styles.sliderText}>
@@ -178,8 +179,8 @@ class TextAnalysisResultThird extends Component {
           <View style={styles.sliderView}>
             <View style={styles.sliderTrackText}>
               <Icon
-                type="MaterialCommunityIcons"
-                name="arrow-up-bold"
+                type="MaterialIcons"
+                name={arrowIconName}
                 style={styles.icon}
               />
               <Text style={styles.sliderText}>
@@ -207,8 +208,8 @@ class TextAnalysisResultThird extends Component {
           <View style={styles.sliderView}>
             <View style={styles.sliderTrackText}>
               <Icon
-                type="MaterialCommunityIcons"
-                name="arrow-up-bold"
+                type="MaterialIcons"
+                name={arrowIconName}
                 style={styles.icon}
               />
               <Text style={styles.sliderText}>{I18n.t('dutifulness')}</Text>
@@ -261,7 +262,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     paddingBottom: Platform.OS === 'ios' ? 10 : 1,
-    paddingTop: Platform.OS === 'ios' ? '10%' : '1%',
+    paddingTop: Platform.OS === 'ios' ? '5%' : '1%',
   },
   labelBoldText: {
     padding: 20,
@@ -275,7 +276,7 @@ const styles = StyleSheet.create({
         ? CONSTANTS.FONT.HEADER_H1_IOS
         : CONSTANTS.FONT.HEADER_H1_ANDROID,
     textAlign: 'center',
-    paddingBottom: 10,
+    paddingBottom: 3,
   },
   sliderView: {
     paddingBottom: 5,
@@ -315,14 +316,11 @@ const styles = StyleSheet.create({
     paddingLeft: 50,
   },
   icon: {
-    fontSize: Platform.OS === 'ios' ? 20 : 15,
+    fontSize: Platform.OS === 'ios' ? 20 : 16,
     color: CONSTANTS.COLOR.WHITE,
   },
   lastButtonsView: {
     paddingBottom: Platform.OS === 'ios' ? 15 : 20,
-  },
-  toast: {
-    fontSize: 20,
   },
 });
 

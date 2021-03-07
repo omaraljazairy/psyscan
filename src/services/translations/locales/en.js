@@ -11,6 +11,8 @@ export default {
   advice_text:
     "You need text written by the person whose \n personality you're interested in. It should \ncontain words about every day experiences, \nthoughts, and responses. \nYou can play with the demo with as little as \n100 words, but for a more accurate analysis, \n you need more words.",
   analyse_see_results: 'Analyse \nsee result',
+  audio_analysis_first_page_instructions:
+    'Explain what is going to happend, why we need to record your voice. Give instructions to the user. Explain what is going to happen, why we need to scan. Give instructions to the user.',
   // B
 
   // C
@@ -76,6 +78,7 @@ export default {
   social_activity_last_2_days: 'Social activity last 2 days',
   save: 'Save',
   start_writing: 'Start Writing',
+  start_recording: 'Start Recording',
   // T
   text_analysis: 'Text \nanalysis',
   // U

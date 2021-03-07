@@ -11,6 +11,7 @@ import Orientations from '../screens/preliminary/Orientations';
 import SectionMenu from '../screens/advanced/SectionsMenu';
 import YourActivity from '../screens/advanced/YourActivity';
 import YourActivityResults from '../screens/advanced/YourActivityResults';
+// Text Analysis
 import TextAnalysisFirst from '../screens/advanced/TextAnalysisFirst';
 import TextAnalysisSecond from '../screens/advanced/TextAnalysisSecond';
 import TextAnalysisThird from '../screens/advanced/TextAnalysisThird';
@@ -18,6 +19,9 @@ import TextAnalysisFourth from '../screens/advanced/TextAnalysisFourth';
 import TextAnalysisResultFirst from '../screens/advanced/TextAnalysisResultFirst';
 import TextAnalysisResultSecond from '../screens/advanced/TextAnalysisResultSecond';
 import TextAnalysisResultThird from '../screens/advanced/TextAnalysisResultThird';
+// Audio analysis
+import AudioAnalysisFirst from '../screens/advanced/AudioAnalysisFirst';
+import AudioAnalysisSecond from '../screens/advanced/AudioAnalysisSecond';
 
 import MainPage from '../screens/indepth/MainPage';
 
@@ -66,6 +70,15 @@ const RootStackNavigator = ({navigation}) => (
     <RootStack.Screen
       name="TextAnalysisResultThirdScreen"
       component={TextAnalysisResultThird}
+    />
+
+    <RootStack.Screen
+      name="AudioAnalysisFirstScreen"
+      component={AudioAnalysisFirst}
+    />
+    <RootStack.Screen
+      name="AudioAnalysisSecondScreen"
+      component={AudioAnalysisSecond}
     />
 
     <RootStack.Screen name="MainPageScreen" component={MainPage} />

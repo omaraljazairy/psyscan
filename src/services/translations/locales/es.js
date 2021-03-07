@@ -11,6 +11,8 @@ export default {
     'Necesitas texto escrito por la persona \n cuya personalidad te interesa. Debe \n contener palabras sobre experiencias, pensamientos y respuestas cotidianos.  n Puede jugar con la demostración con tan solo \n 100 palabras, pero para un análisis más preciso, \n necesita más palabras.',
   average_hours_of_sleep: 'Horas promedio de sueño',
   audio_analysis: 'Análisis de audio',
+  audio_analysis_first_page_instructions:
+    'Explique lo que va a pasar, por qué necesitamos grabar su voz. Dar instrucciones al usuario. Explique lo que va a suceder, por qué necesitamos escanear. Dar instrucciones al usuario.',
   // B
 
   // C
@@ -76,6 +78,7 @@ export default {
   social_activity_last_2_days: 'Actividad social últimos 2 días',
   start_the_test: 'Comienza la prueba',
   self_discipline: 'Autodisciplina',
+  start_recording: 'Iniciar la grabación',
   // T
   text_analysis: 'Análisis de texto',
   // U

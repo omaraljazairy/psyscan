@@ -30,7 +30,7 @@ class SectionMenu extends Component {
             <BlockButton
               // btnSize="small"
               text="audio_analysis"
-              screenName="MainPageScreen"
+              screenName="AudioAnalysisFirstScreen"
             />
             <BlockButton
               // btnSize="small"

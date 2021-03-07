@@ -1,7 +1,7 @@
 export default {
   // A
   average_hours_of_sleep: 'Gemiddeld aantal uren slaap',
-  audio_analysis: 'Audio-analyse',
+  audio_analysis: 'Audio analyse',
   achievement_striving: 'Prestatie streven',
   advanced_testing_intro:
     'De volledige tekst bevat vijf verschillende secties. \nOm beter bij je te komen, \nis het aan te raden om ze \nalle vijf te voltooien',
@@ -11,6 +11,8 @@ export default {
   analyse_see_results: 'Analyse \nzie resultaat',
   agreeableness: 'Vriendelijkheid',
   advanced_testing: 'Geavanceerd testen',
+  audio_analysis_first_page_instructions:
+    'Leg uit wat er gaat gebeuren, waarom we uw stem moeten opnemen. Geef instructies aan de gebruiker. Leg uit wat er gaat gebeuren, waarom we moeten scannen. Geef instructies aan de gebruiker.',
   // B
 
   // C
@@ -78,6 +80,7 @@ export default {
   social_activity_last_2_days: 'Sociale activiteit afgelopen 2 dagen',
   self_discipline: 'Zelfdiscipline',
   start_the_test: 'begin het test',
+  start_recording: 'Begin met opnemen',
   // T
   text_analysis: 'Tekstanalyse',
   // U
