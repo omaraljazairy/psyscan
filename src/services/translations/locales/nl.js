@@ -86,6 +86,7 @@ export default {
   start_the_test: 'begin het test',
   start_recording: 'Begin met opnemen',
   scanning: 'Scannen',
+  start_video: 'Start de video',
   // T
   text_analysis: 'Tekstanalyse',
   tell_us_how_you_feel: 'Vertel ons hoe u zich vandaag voelt.',
@@ -94,6 +95,9 @@ export default {
   // V
   very_strong_analysis: 'Zeer sterke analyse',
   video_analysis: 'Video-analyse',
+  video_analysis_first_page_instructions:
+    'Leg uit wat er gaat gebeuren, waarom we moeten scannen. Geef instructies aan de gebruiker. Leg uit wat er gaat gebeuren, waarom we moeten scannen. Geef instructies aan de gebruiker.',
+  video_instructions: 'Kunt u uw neus aanraken met uw rechterhand?',
   // W
   words_analyzed: '15128 Woorden geanalyseerd',
   welcome: 'Welkome Naar',

@@ -7,14 +7,14 @@ import {Icon} from 'native-base';
 import CONSTANTS from '../../constants/styles';
 import CustomButton from '../../components/buttons/CustomButton';
 
-class FaceScanResult extends Component {
+class VideoAnalysisResult extends Component {
   render() {
     return (
       <SafeAreaView style={styles.container}>
         <Header text={'video_analysis'} />
         <View style={styles.bodyView}>
           <View style={styles.iconView}>
-            <Icon type="FontAwesome" name="plus-square-o" style={styles.icon} />
+            <Icon type="AntDesign" name="playcircleo" style={styles.icon} />
           </View>
           <View style={styles.textView}>
             <Text style={styles.text}>
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
   },
   textView: {
     paddingVertical: 10,
-    width: 120,
+    // width: 120,
     flexWrap: 'nowrap',
   },
   text: {
@@ -103,4 +103,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default FaceScanResult;
+export default VideoAnalysisResult;

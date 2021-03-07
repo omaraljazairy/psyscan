@@ -40,7 +40,7 @@ class SectionMenu extends Component {
             <BlockButton
               // btnSize="small"
               text="video_analysis"
-              screenName="MainPageScreen"
+              screenName="VideoAnalysisFirstScreen"
             />
           </View>
         </View>

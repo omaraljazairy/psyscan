@@ -86,6 +86,7 @@ export default {
   self_discipline: 'Autodisciplina',
   start_recording: 'Iniciar la grabación',
   scanning: 'Exploración',
+  start_video: 'Iniciar video',
   // T
   text_analysis: 'Análisis de texto',
   tell_us_how_you_feel: 'Cuéntanos cómo te sientes hoy.',
@@ -94,6 +95,9 @@ export default {
   // V
   very_strong_analysis: 'Análisis muy fuerte',
   video_analysis: 'Análisis de video',
+  video_analysis_first_page_instructions:
+    'Explique lo que va a pasar, por qué necesitamos grabar su voz. Dar instrucciones al usuario. Explique lo que va a suceder, por qué necesitamos escanear. Dar instrucciones al usuario.',
+  video_instructions: '¿Puedes tocarte la nariz con la mano derecha?',
   // W
   words_analyzed: '15128 Palabras analizadas',
   welcome: 'Bienvenida a',

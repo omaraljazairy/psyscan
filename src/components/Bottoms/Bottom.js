@@ -3,6 +3,7 @@ import {Text, StyleSheet, Platform, View} from 'react-native';
 import {Icon} from 'react-native-elements';
 import {Button} from 'native-base';
 import {useNavigation} from '@react-navigation/native';
+import CONSTANTS from '../../constants/styles';
 
 const Bottom = (props) => {
   const text = props.text;
@@ -14,6 +15,7 @@ const Bottom = (props) => {
   const textFontSize = props.textFontSize ? props.textFontSize : 30;
   const deviceFontSize =
     Platform.OS === 'ios' ? textFontSize : textFontSize - 2;
+  const textColor = props.textColor ? props.textColor : CONSTANTS.COLOR.WHITE;
 
   return (
     <View style={styles.bottomView}>
@@ -21,7 +23,7 @@ const Bottom = (props) => {
         <Icon
           name="left"
           type="antdesign"
-          color={'#fff'}
+          color={textColor}
           size={20}
           iconStyle={styles.icon}
           onPress={() => navigation.navigate(leftScreenName, navProps)}
@@ -32,6 +34,7 @@ const Bottom = (props) => {
               ...styles.text,
               fontWeight: textFontWeight,
               fontSize: deviceFontSize,
+              color: textColor,
             }}>
             {text}
           </Text>
@@ -39,7 +42,7 @@ const Bottom = (props) => {
         <Icon
           name="right"
           type="antdesign"
-          color={'#fff'}
+          color={textColor}
           size={20}
           iconStyle={styles.icon}
           onPress={() => navigation.navigate(rightScreenName, navProps)}
@@ -62,7 +65,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   text: {
-    color: '#FFF',
     textAlign: 'center',
   },
   icon: {

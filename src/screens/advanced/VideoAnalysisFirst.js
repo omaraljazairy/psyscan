@@ -7,29 +7,29 @@ import {Icon} from 'native-base';
 import CONSTANTS from '../../constants/styles';
 import CustomButton from '../../components/buttons/CustomButton';
 
-class FaceScanResult extends Component {
+class VideoAnalysisFirst extends Component {
   render() {
     return (
       <SafeAreaView style={styles.container}>
-        <Header text={'video_analysis'} />
+        <Header text={'advanced_testing'} />
         <View style={styles.bodyView}>
           <View style={styles.iconView}>
-            <Icon type="FontAwesome" name="plus-square-o" style={styles.icon} />
+            <Icon type="AntDesign" name="playcircleo" style={styles.icon} />
           </View>
           <View style={styles.textView}>
             <Text style={styles.text}>
-              {I18n.t('your_results').toUpperCase()}
+              {I18n.t('video_analysis').toUpperCase()}
             </Text>
           </View>
           <View style={styles.descriptionView}>
             <Text style={styles.descriptionText}>
-              {I18n.t('your_result_explanation')}
+              {I18n.t('video_analysis_first_page_instructions')}
             </Text>
           </View>
           <View style={styles.lastButtonsView}>
             <CustomButton
-              text={'next_step'}
-              screenName="MenuScreen"
+              text={'start_video'}
+              screenName="VideoAnalysisSecondScreen"
               txtBtnHeight={50}
               txtPaddingVertical={15}
               btnWidth={150}
@@ -38,8 +38,8 @@ class FaceScanResult extends Component {
         </View>
         <Bottom
           text="PSYSCAN"
-          leftScreenName="MenuScreen"
-          rightScreenName="AudioAnalysisSecondScreen"
+          leftScreenName="SectionMenuScreen"
+          rightScreenName="VideoAnalysisSecondScreen"
         />
       </SafeAreaView>
     );
@@ -69,8 +69,7 @@ const styles = StyleSheet.create({
   },
   textView: {
     paddingVertical: 10,
-    width: 120,
-    flexWrap: 'nowrap',
+    width: 100,
   },
   text: {
     color: CONSTANTS.COLOR.WHITE,
@@ -79,11 +78,6 @@ const styles = StyleSheet.create({
         ? CONSTANTS.FONT.HEADER_H1_IOS
         : CONSTANTS.FONT.HEADER_H1_ANDROID,
     textAlign: 'center',
-  },
-  sliderView: {
-    width: '100%',
-    paddingHorizontal: 20,
-    paddingTop: 50,
   },
   descriptionView: {
     paddingHorizontal: 40,
@@ -99,8 +93,8 @@ const styles = StyleSheet.create({
   },
   lastButtonsView: {
     paddingBottom: Platform.OS === 'ios' ? 5 : 20,
-    paddingTop: Platform.OS === 'ios' ? 55 : 20,
+    paddingTop: Platform.OS === 'ios' ? 85 : 50,
   },
 });
 
-export default FaceScanResult;
+export default VideoAnalysisFirst;

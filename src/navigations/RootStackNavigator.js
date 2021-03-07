@@ -31,6 +31,12 @@ import FaceScanSecond from '../screens/advanced/FaceScanSecond';
 import FaceScanThird from '../screens/advanced/FaceScanThird';
 import FaceScanResult from '../screens/advanced/FaceScanResult';
 
+// Video analysis
+
+import VideoAnalysisFirst from '../screens/advanced/VideoAnalysisFirst';
+import VideoAnalysisSecond from '../screens/advanced/VideoAnalysisSecond';
+import VideoAnalysisResult from '../screens/advanced/VideoAnalysisResult';
+
 import MainPage from '../screens/indepth/MainPage';
 
 const RootStack = createStackNavigator();
@@ -101,6 +107,19 @@ const RootStackNavigator = ({navigation}) => (
     <RootStack.Screen name="FaceScanSecondScreen" component={FaceScanSecond} />
     <RootStack.Screen name="FaceScanThirdScreen" component={FaceScanThird} />
     <RootStack.Screen name="FaceScanResultScreen" component={FaceScanResult} />
+
+    <RootStack.Screen
+      name="VideoAnalysisFirstScreen"
+      component={VideoAnalysisFirst}
+    />
+    <RootStack.Screen
+      name="VideoAnalysisSecondScreen"
+      component={VideoAnalysisSecond}
+    />
+    <RootStack.Screen
+      name="VideoAnalysisResultScreen"
+      component={VideoAnalysisResult}
+    />
 
     <RootStack.Screen name="MainPageScreen" component={MainPage} />
   </RootStack.Navigator>

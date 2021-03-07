@@ -85,6 +85,7 @@ export default {
   save: 'Save',
   start_writing: 'Start Writing',
   start_recording: 'Start Recording',
+  start_video: 'Start video',
   scanning: 'Scanning',
   // T
   text_analysis: 'Text analysis',
@@ -94,6 +95,9 @@ export default {
   // V
   video_analysis: 'Video analysis',
   very_strong_analysis: 'Very strong analysis',
+  video_analysis_first_page_instructions:
+    'Explain what is going to happen, why we need to scan. Give instructions to the user. Explain what is going to happen, why we need to scan. Give instructions to the user.',
+  video_instructions: 'Can you touch your nose with your right hand?',
   // W
   welcome: 'Welcome to',
   welcome_back: 'Welcome back',
