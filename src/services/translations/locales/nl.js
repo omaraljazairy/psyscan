@@ -21,6 +21,7 @@ export default {
   connect_info:
     'u kunt psyscan \nverbinden met sociale applicaties op uw telefoon \nom uw activiteit te volgen',
   complete_manually: 'Handmatig invullen',
+  complete: 'Compleet',
   // D
   dutifulness: 'Plichtsbetrachting',
   // E
@@ -30,6 +31,8 @@ export default {
   // F
   forgot_password: 'Wachtwoor vergeten',
   face_scan: 'Gezichtsscan',
+  face_scan_instructions:
+    'Leg uit wat er gaat gebeuren, waarom we moeten scannen. Geef instructies aan de gebruiker. Leg uit wat er gaat gebeuren, waarom we moeten scannen. Geef instructies aan de gebruiker.',
   // G
   gender: 'Geslacht',
   // H
@@ -82,6 +85,7 @@ export default {
   self_discipline: 'Zelfdiscipline',
   start_the_test: 'begin het test',
   start_recording: 'Begin met opnemen',
+  scanning: 'Scannen',
   // T
   text_analysis: 'Tekstanalyse',
   tell_us_how_you_feel: 'Vertel ons hoe u zich vandaag voelt.',

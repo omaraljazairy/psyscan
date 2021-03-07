@@ -21,6 +21,7 @@ export default {
   connect_info:
     'puede conectar psyscan \na aplicaciones sociales en su teléfono \npara monitorear su actividad ',
   complete_manually: 'Completar manualmente',
+  complete: 'Completo',
   // D
   dutifulness: 'Obediencia',
   // E
@@ -30,6 +31,8 @@ export default {
   // F
   forgot_password: 'Has olvidado tu contraseña',
   face_scan: 'Escaneo facial',
+  face_scan_instructions:
+    'Explique lo que va a suceder, por qué necesitamos escanear. Dar instrucciones al usuario. Explique lo que va a suceder, por qué necesitamos escanear. Dar instrucciones al usuario.',
   // G
   gender: 'Género',
   // H
@@ -82,6 +85,7 @@ export default {
   start_the_test: 'Comienza la prueba',
   self_discipline: 'Autodisciplina',
   start_recording: 'Iniciar la grabación',
+  scanning: 'Exploración',
   // T
   text_analysis: 'Análisis de texto',
   tell_us_how_you_feel: 'Cuéntanos cómo te sientes hoy.',

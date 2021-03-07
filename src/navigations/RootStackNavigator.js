@@ -25,6 +25,12 @@ import AudioAnalysisSecond from '../screens/advanced/AudioAnalysisSecond';
 import AudioAnalysisThird from '../screens/advanced/AudioAnalysisThird';
 import AudioAnalysisResult from '../screens/advanced/AudioAnalysisResult';
 
+// Face scan
+import FaceScanFirst from '../screens/advanced/FaceScanFirst';
+import FaceScanSecond from '../screens/advanced/FaceScanSecond';
+import FaceScanThird from '../screens/advanced/FaceScanThird';
+import FaceScanResult from '../screens/advanced/FaceScanResult';
+
 import MainPage from '../screens/indepth/MainPage';
 
 const RootStack = createStackNavigator();
@@ -90,6 +96,11 @@ const RootStackNavigator = ({navigation}) => (
       name="AudioAnalysisResultScreen"
       component={AudioAnalysisResult}
     />
+
+    <RootStack.Screen name="FaceScanFirstScreen" component={FaceScanFirst} />
+    <RootStack.Screen name="FaceScanSecondScreen" component={FaceScanSecond} />
+    <RootStack.Screen name="FaceScanThirdScreen" component={FaceScanThird} />
+    <RootStack.Screen name="FaceScanResultScreen" component={FaceScanResult} />
 
     <RootStack.Screen name="MainPageScreen" component={MainPage} />
   </RootStack.Navigator>

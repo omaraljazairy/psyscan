@@ -21,6 +21,7 @@ export default {
   connect_info:
     'you can connect psyscan \nto social applications on your phone \nto monitorize your activity ',
   complete_manually: 'Complete manually',
+  complete: 'Complete',
   // D
   dutifulness: 'Dutifulness',
   // E
@@ -30,6 +31,8 @@ export default {
   // F
   forgot_password: 'Forgot Password',
   face_scan: 'Face scan',
+  face_scan_instructions:
+    'Explain what is going to happen, why we need to scan. Give instructions to the user. Explain what is going to happen, why we need to scan. Give instructions to the user.',
   // G
   gender: 'Gender',
   // H
@@ -82,6 +85,7 @@ export default {
   save: 'Save',
   start_writing: 'Start Writing',
   start_recording: 'Start Recording',
+  scanning: 'Scanning',
   // T
   text_analysis: 'Text analysis',
   tell_us_how_you_feel: 'Tell us how you feel today.',

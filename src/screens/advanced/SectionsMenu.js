@@ -35,7 +35,7 @@ class SectionMenu extends Component {
             <BlockButton
               // btnSize="small"
               text="face_scan"
-              screenName="MainPageScreen"
+              screenName="FaceScanFirstScreen"
             />
             <BlockButton
               // btnSize="small"
