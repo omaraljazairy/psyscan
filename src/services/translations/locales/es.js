@@ -54,6 +54,7 @@ export default {
   more_details: 'Más detalles',
   // N
   no: 'No',
+  next_step: 'próximo paso',
   // O
   occupation: 'Ocupación',
   or: 'O',
@@ -108,5 +109,7 @@ export default {
   you_are_unlikely: 'Eres improbable...',
   yes: 'Si',
   your_audio_analyse_is_complete: 'Tu análisis de audio está completo',
+  your_result_explanation:
+    'Eres útil y analítico. \nEres consciente emocionalmente: eres consciente  \nde tus sentimientos y de cómo expresarlos. Eres empático: sientes lo que sienten los demás y \neres compasivo con ellos. Y eres  naltruista: te sientes satisfecho cuando ayudas \na otros, y harás todo lo posible para hacerlo. \nSus elecciones están impulsadas por un deseo de \nbienestar. Considera tanto la tradición como la independencia para orientar gran parte de lo que hace.  NRespetas mucho a los grupos a los que perteneces y \nsigue su guía.',
   // Z
 };

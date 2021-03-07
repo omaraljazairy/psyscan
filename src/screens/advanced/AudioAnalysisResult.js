@@ -6,14 +6,13 @@ import I18n from '../../../src/services/translations/translation';
 import {Icon} from 'native-base';
 import CONSTANTS from '../../constants/styles';
 import CustomSlider from '../../components/sliders/CustomSlider';
-import BlockButton from '../../components/buttons/BlockButton';
-// import CustomButton from '../../components/buttons/CustomButton';
+import CustomButton from '../../components/buttons/CustomButton';
 
-class AudioAnalysisThird extends Component {
+class AudioAnalysisResult extends Component {
   render() {
     return (
       <SafeAreaView style={styles.container}>
-        <Header text={'advanced_testing'} />
+        <Header text={'audio_analysis'} />
         <View style={styles.bodyView}>
           <View style={styles.iconView}>
             <Icon
@@ -24,32 +23,28 @@ class AudioAnalysisThird extends Component {
           </View>
           <View style={styles.textView}>
             <Text style={styles.text}>
-              {I18n.t('your_audio_analyse_is_complete').toUpperCase()}
+              {I18n.t('your_results').toUpperCase()}
             </Text>
           </View>
-          <View style={styles.sliderView}>
-            <CustomSlider
-              onValueChange={(value) => console.log('value ', value)}
-              defaultValue={90}
-            />
+          <View style={styles.descriptionView}>
+            <Text style={styles.descriptionText}>
+              {I18n.t('your_result_explanation')}
+            </Text>
           </View>
           <View style={styles.lastButtonsView}>
-            <BlockButton
-              btnSize="small"
-              text="save"
-              screenName="AudioAnalysisResultScreen"
-            />
-            <BlockButton
-              btnSize="small"
-              text="analyse_see_results"
-              screenName="AudioAnalysisResultScreen"
+            <CustomButton
+              text={'next_step'}
+              screenName="AudioAnalysisSecondScreen"
+              txtBtnHeight={50}
+              txtPaddingVertical={15}
+              btnWidth={150}
             />
           </View>
         </View>
         <Bottom
           text="PSYSCAN"
-          leftScreenName="AudioAnalysisSecondScreen"
-          rightScreenName="AudioAnalysisResultScreen"
+          leftScreenName="MenuScreen"
+          rightScreenName="AudioAnalysisSecondScreen"
         />
       </SafeAreaView>
     );
@@ -79,7 +74,8 @@ const styles = StyleSheet.create({
   },
   textView: {
     paddingVertical: 10,
-    width: 160,
+    width: 120,
+    flexWrap: 'nowrap',
   },
   text: {
     color: CONSTANTS.COLOR.WHITE,
@@ -107,9 +103,9 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   lastButtonsView: {
-    flexDirection: 'row',
-    paddingTop: Platform.OS === 'ios' ? 150 : 50,
+    paddingBottom: Platform.OS === 'ios' ? 5 : 20,
+    paddingTop: Platform.OS === 'ios' ? 55 : 20,
   },
 });
 
-export default AudioAnalysisThird;
+export default AudioAnalysisResult;

@@ -54,6 +54,7 @@ export default {
   more_details: 'Meer details',
   // N
   no: 'Nee',
+  next_step: 'volgende stap',
   // O
   occupation: 'Beroep',
   or: 'Of',
@@ -108,5 +109,7 @@ export default {
   you_are_unlikely: 'U bent onwaarschijnlijk...',
   yes: 'Ja',
   your_audio_analyse_is_complete: 'Uw audio-analyse is voltooid',
+  your_result_explanation:
+    'Je bent behulpzaam en analytisch. Je bent emotioneel bewust: je bent je bewust van je gevoelens en hoe je ze kunt uiten. Je bent empathisch: je voelt wat anderen voelen en hebt medelijden met hen. En je bent altruïstisch: je voelt je voldaan wanneer je anderen helpt, en doet er alles aan om dat te doen. Uw keuzes worden gedreven door een verlangen naar welzijn. je beschouwt zowel traditie als onafhankelijkheid als leidraad voor een groot deel van wat je doet. Je respecteert de groepen waartoe je behoort zeer en volgt hun richtlijnen. Uw keuzes worden gedreven door een verlangen naar welzijn. je beschouwt zowel traditie als onafhankelijkheid als leidraad voor een groot deel van wat je doet. Je respecteert de groepen waartoe je behoort zeer en volgt hun richtlijnen.',
   // Z
 };

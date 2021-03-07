@@ -23,6 +23,7 @@ import TextAnalysisResultThird from '../screens/advanced/TextAnalysisResultThird
 import AudioAnalysisFirst from '../screens/advanced/AudioAnalysisFirst';
 import AudioAnalysisSecond from '../screens/advanced/AudioAnalysisSecond';
 import AudioAnalysisThird from '../screens/advanced/AudioAnalysisThird';
+import AudioAnalysisResult from '../screens/advanced/AudioAnalysisResult';
 
 import MainPage from '../screens/indepth/MainPage';
 
@@ -84,6 +85,10 @@ const RootStackNavigator = ({navigation}) => (
     <RootStack.Screen
       name="AudioAnalysisThirdScreen"
       component={AudioAnalysisThird}
+    />
+    <RootStack.Screen
+      name="AudioAnalysisResultScreen"
+      component={AudioAnalysisResult}
     />
 
     <RootStack.Screen name="MainPageScreen" component={MainPage} />

@@ -54,6 +54,7 @@ export default {
   more_details: 'More details',
   // N
   no: 'No',
+  next_step: 'next step',
   // O
   occupation: 'Occupation',
   or: 'Or',
@@ -114,5 +115,7 @@ export default {
   your_result_bullet_6: 'Attend live musical events',
   yes: 'Yes',
   your_audio_analyse_is_complete: 'Your \nAudio Analyse is complete',
+  your_result_explanation:
+    'You are helpful and analytical. You are emotionally aware: you are aware of your feelings and how to express them. You are empathetic: you feel what others feel and are compassionate towards them. And you are altruistic: you feel fulfilled when helping others, and will go out of your way to do so. Your choices are driven by a desire for well-being. you consider both tradition and indepen-dence to guide a large part of what you do. You highly respect the groups you belong to and follow their guidance. You are helpful and analytical. You are emotionally aware: you are aware of \nyour feelings and how to express them. You \nare empathetic: you feel what others feel and \nare compassionate towards them. And you are \naltruistic: you feel fulfilled when helping \nothers, and will go out of your way to do so.',
   // Z
 };
