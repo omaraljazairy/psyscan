@@ -113,5 +113,6 @@ export default {
   your_result_bullet_5: 'Like documentary movies',
   your_result_bullet_6: 'Attend live musical events',
   yes: 'Yes',
+  your_audio_analyse_is_complete: 'Your \nAudio Analyse is complete',
   // Z
 };

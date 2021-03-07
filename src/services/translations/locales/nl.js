@@ -107,5 +107,6 @@ export default {
   you_are_likely: 'je bent waarschijnlijk...',
   you_are_unlikely: 'U bent onwaarschijnlijk...',
   yes: 'Ja',
+  your_audio_analyse_is_complete: 'Uw audio-analyse is voltooid',
   // Z
 };

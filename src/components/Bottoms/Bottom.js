@@ -10,6 +10,10 @@ const Bottom = (props) => {
   const leftScreenName = props.leftScreenName;
   const rightScreenName = props.rightScreenName;
   const navProps = props.navProps ? props.navProps : {};
+  const textFontWeight = props.textFontWeight ? props.textFontWeight : 'bold';
+  const textFontSize = props.textFontSize ? props.textFontSize : 30;
+  const deviceFontSize =
+    Platform.OS === 'ios' ? textFontSize : textFontSize - 2;
 
   return (
     <View style={styles.bottomView}>
@@ -23,7 +27,14 @@ const Bottom = (props) => {
           onPress={() => navigation.navigate(leftScreenName, navProps)}
         />
         <Button block transparent>
-          <Text style={styles.text}>{text}</Text>
+          <Text
+            style={{
+              ...styles.text,
+              fontWeight: textFontWeight,
+              fontSize: deviceFontSize,
+            }}>
+            {text}
+          </Text>
         </Button>
         <Icon
           name="right"
@@ -53,8 +64,6 @@ const styles = StyleSheet.create({
   text: {
     color: '#FFF',
     textAlign: 'center',
-    fontWeight: 'bold',
-    fontSize: Platform.OS === 'ios' ? 30 : 28,
   },
   icon: {
     paddingHorizontal: 60,

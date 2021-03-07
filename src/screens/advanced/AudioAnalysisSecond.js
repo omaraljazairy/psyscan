@@ -4,11 +4,21 @@ import Header from '../../components/Headers/Header';
 import I18n from '../../../src/services/translations/translation';
 import CONSTANTS from '../../constants/styles';
 import CustomSlider from '../../components/sliders/CustomSlider';
+import Bottom from '../../components/Bottoms/Bottom';
 
 class AudioAnalysisSecond extends Component {
+  state = {
+    percentage: 70,
+  };
+
+  onValueChange(value) {
+    this.setState({percentage: value});
+  }
+
   render() {
+    const percentageText = String(this.state.percentage) + ' %';
+
     return (
-      // <SafeAreaView style={styles.container}>
       <ImageBackground
         source={require('../../assets/images/recording2.jpg')}
         style={styles.image}>
@@ -20,19 +30,20 @@ class AudioAnalysisSecond extends Component {
         </View>
         <View style={styles.sliderView}>
           <CustomSlider
-            onValueChange={(value) => console.log()}
+            onValueChange={(value) => this.onValueChange(value)}
             defaultValue={70}
           />
-          <Text style={styles.bottomText}>{I18n.t('recording')} 70%</Text>
+          <View style={styles.bottomView}>
+            <Bottom
+              text={I18n.t('recording') + '  ' + percentageText}
+              leftScreenName="AudioAnalysisFirstScreen"
+              rightScreenName="AudioAnalysisThirdScreen"
+              textFontWeight={'400'}
+              textFontSize={CONSTANTS.FONT.HEADER_H1_IOS}
+            />
+          </View>
         </View>
       </ImageBackground>
-
-      // {/* <Bottom
-      //   text="PSYSCAN"
-      //   leftScreenName="AudioAnalysisFirstScreen"
-      //   rightScreenName="MenuScreen"
-      // /> */}
-      // </SafeAreaView>
     );
   }
 }
@@ -70,13 +81,9 @@ const styles = StyleSheet.create({
     position: 'absolute',
     bottom: Platform.OS === 'ios' ? 30 : 15,
   },
-  bottomText: {
-    color: CONSTANTS.COLOR.WHITE,
-    fontSize:
-      Platform.OS === 'ios'
-        ? CONSTANTS.FONT.HEADER_H1_IOS
-        : CONSTANTS.FONT.HEADER_H1_ANDROID,
-    textAlign: 'center',
+  bottomView: {
+    paddingBottom: 10,
+    paddingTop: 30,
   },
 });
 
