@@ -22,6 +22,7 @@ export default {
     'you can connect psyscan \nto social applications on your phone \nto monitorize your activity ',
   complete_manually: 'Complete manually',
   complete: 'Complete',
+  center: 'Center',
   // D
   dutifulness: 'Dutifulness',
   // E
@@ -37,7 +38,8 @@ export default {
   gender: 'Gender',
   // H
   hello: 'Hello',
-
+  how_you_can_work_on_it: 'How you can work on it? what it means?',
+  helpful_mentalhealth_applications: 'Helpful mentalhealth applications',
   // I
   in_depth_analysis: 'In-Depth analysis',
   intermediate: 'Intermediate',
@@ -53,6 +55,8 @@ export default {
   location: 'Location',
   language: 'Language',
   language_level: 'Language level',
+  level_of_stress: 'Level of stress',
+  level_of_emotional_flexibility: 'Level of emotional flexibility',
   // M
   more_details: 'More details',
   // N
@@ -61,6 +65,7 @@ export default {
   // O
   occupation: 'Occupation',
   or: 'Or',
+  our_advise: 'Our advise',
   // P
   password: 'Password',
   preliminary_testing: 'Preliminary testing',
@@ -71,6 +76,8 @@ export default {
   personality: 'Personality',
   physical_activity_last_2_days: 'Physical activity last 2 days',
   processing: 'Processing...',
+  psychologists: 'Psychologists',
+  psyscan: 'PSYSCAN',
   // Q
 
   // R
@@ -78,6 +85,7 @@ export default {
   race_culture: 'Race culture',
   relationship_status: 'Relationship status',
   recording: 'Recording',
+  recommends_you: 'Recommends you:',
   // S
   start_the_test: 'Start the test',
   self_discipline: 'Self-Discpline',
@@ -87,6 +95,8 @@ export default {
   start_recording: 'Start Recording',
   start_video: 'Start video',
   scanning: 'Scanning',
+  sense_of_self_esteem: 'Sense of self esteem',
+  sense_of_reality: 'Sense of reality',
   // T
   text_analysis: 'Text analysis',
   tell_us_how_you_feel: 'Tell us how you feel today.',
@@ -98,6 +108,7 @@ export default {
   video_analysis_first_page_instructions:
     'Explain what is going to happen, why we need to scan. Give instructions to the user. Explain what is going to happen, why we need to scan. Give instructions to the user.',
   video_instructions: 'Can you touch your nose with your right hand?',
+  visiting_these_centers: 'Visiting these centers can make you feel better',
   // W
   welcome: 'Welcome to',
   welcome_back: 'Welcome back',
@@ -125,5 +136,6 @@ export default {
   your_audio_analyse_is_complete: 'Your \nAudio Analyse is complete',
   your_result_explanation:
     'You are helpful and analytical. You are emotionally aware: you are aware of your feelings and how to express them. You are empathetic: you feel what others feel and are compassionate towards them. And you are altruistic: you feel fulfilled when helping others, and will go out of your way to do so. Your choices are driven by a desire for well-being. you consider both tradition and indepen-dence to guide a large part of what you do. You highly respect the groups you belong to and follow their guidance. You are helpful and analytical. You are emotionally aware: you are aware of \nyour feelings and how to express them. You \nare empathetic: you feel what others feel and \nare compassionate towards them. And you are \naltruistic: you feel fulfilled when helping \nothers, and will go out of your way to do so.',
+  your_profile: 'Your profile',
   // Z
 };

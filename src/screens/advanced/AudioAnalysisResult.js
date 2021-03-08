@@ -34,7 +34,7 @@ class AudioAnalysisResult extends Component {
           <View style={styles.lastButtonsView}>
             <CustomButton
               text={'next_step'}
-              screenName="AudioAnalysisSecondScreen"
+              screenName="YourResultScreen"
               txtBtnHeight={50}
               txtPaddingVertical={15}
               btnWidth={150}
@@ -43,8 +43,8 @@ class AudioAnalysisResult extends Component {
         </View>
         <Bottom
           text="PSYSCAN"
-          leftScreenName="MenuScreen"
-          rightScreenName="AudioAnalysisSecondScreen"
+          leftScreenName="AudioAnalysisThirdScreen"
+          rightScreenName="YourResultScreen"
         />
       </SafeAreaView>
     );

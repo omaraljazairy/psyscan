@@ -29,7 +29,7 @@ class VideoAnalysisResult extends Component {
           <View style={styles.lastButtonsView}>
             <CustomButton
               text={'next_step'}
-              screenName="MenuScreen"
+              screenName="YourResultScreen"
               txtBtnHeight={50}
               txtPaddingVertical={15}
               btnWidth={150}
@@ -38,8 +38,8 @@ class VideoAnalysisResult extends Component {
         </View>
         <Bottom
           text="PSYSCAN"
-          leftScreenName="MenuScreen"
-          rightScreenName="AudioAnalysisSecondScreen"
+          leftScreenName="VideoAnalysisSecondcreen"
+          rightScreenName="YourResultScreen"
         />
       </SafeAreaView>
     );

@@ -38,7 +38,7 @@ class FaceScanSecond extends Component {
             <Bottom
               text={I18n.t('scanning') + '  ' + percentageText}
               leftScreenName="FaceScanFirstScreen"
-              rightScreenName="MenuScreen"
+              rightScreenName="FaceScanThirdScreen"
               textFontWeight={'400'}
               textFontSize={CONSTANTS.FONT.HEADER_H1_IOS}
             />

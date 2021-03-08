@@ -14,6 +14,8 @@ export default {
     STYLE: 'normal',
     HEADER_H1_IOS: 20,
     HEADER_H1_ANDROID: 18,
+    HEADER_H2_IOS: 16,
+    HEADER_H2_ANDROID: 14,
     DESCRIPTION_SIZE_IOS: 15,
     DESCRIPTION_SIZE_ANDROID: 13,
   },

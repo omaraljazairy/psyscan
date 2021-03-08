@@ -26,7 +26,7 @@ class FaceScanThird extends Component {
             <BlockButton
               btnSize="small"
               text="save"
-              screenName="FaceScanSecondScreen"
+              screenName="FaceScanResultScreen"
             />
             <BlockButton
               btnSize="small"

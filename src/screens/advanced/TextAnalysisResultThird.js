@@ -245,7 +245,7 @@ class TextAnalysisResultThird extends Component {
         <Bottom
           text="PSYSCAN"
           leftScreenName="TextAnalysisResultSecondScreen"
-          rightScreenName="MenuScreen"
+          rightScreenName="YourResultScreen"
         />
       </SafeAreaView>
     );

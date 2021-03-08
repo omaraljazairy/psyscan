@@ -22,6 +22,7 @@ export default {
     'puede conectar psyscan \na aplicaciones sociales en su teléfono \npara monitorear su actividad ',
   complete_manually: 'Completar manualmente',
   complete: 'Completo',
+  center: 'centrar',
   // D
   dutifulness: 'Obediencia',
   // E
@@ -37,7 +38,8 @@ export default {
   gender: 'Género',
   // H
   hello: 'Hola',
-
+  how_you_can_work_on_it: '¿Cómo puedes trabajar en eso? que significa',
+  helpful_mentalhealth_applications: 'Aplicaciones útiles para la salud mental',
   // I
   is_it_your_mothertongue_language: '¿Es tu lengua materna?',
   intermediate: 'Intermedio',
@@ -53,6 +55,8 @@ export default {
   language: 'idioma',
   language_level: 'Nivel de idioma',
   location: 'Localización',
+  level_of_stress: 'Nivel de estrés',
+  level_of_emotional_flexibility: 'Nivel de flexibilidad emocional',
   // M
   more_details: 'Más detalles',
   // N
@@ -61,6 +65,7 @@ export default {
   // O
   occupation: 'Ocupación',
   or: 'O',
+  our_advise: 'Nuestro consejo',
   // P
   percent_0: '0%',
   percent_25: '25%',
@@ -71,6 +76,8 @@ export default {
   password: 'Contraseña',
   physical_activity_last_2_days: 'Actividad física últimos 2 días',
   processing: 'Procesando...',
+  psychologists: 'Psicólogas',
+  psyscan: 'PSYSCAN',
   // Q
 
   // R
@@ -78,6 +85,7 @@ export default {
   relationship_status: 'Estado civil',
   register: 'Registrarse',
   recording: 'Grabación',
+  recommends_you: 'Te recomienda:',
   // S
   save: 'Guardar',
   start_writing: 'Empieza a escribir',
@@ -87,6 +95,8 @@ export default {
   start_recording: 'Iniciar la grabación',
   scanning: 'Exploración',
   start_video: 'Iniciar video',
+  sense_of_self_esteem: 'Sentido de la autoestima',
+  sense_of_reality: 'Sentido de la realidad',
   // T
   text_analysis: 'Análisis de texto',
   tell_us_how_you_feel: 'Cuéntanos cómo te sientes hoy.',
@@ -98,6 +108,7 @@ export default {
   video_analysis_first_page_instructions:
     'Explique lo que va a pasar, por qué necesitamos grabar su voz. Dar instrucciones al usuario. Explique lo que va a suceder, por qué necesitamos escanear. Dar instrucciones al usuario.',
   video_instructions: '¿Puedes tocarte la nariz con la mano derecha?',
+  visiting_these_centers: 'Visitar estos centros puede hacerte sentir mejor',
   // W
   words_analyzed: '15128 Palabras analizadas',
   welcome: 'Bienvenida a',
@@ -119,5 +130,6 @@ export default {
   your_audio_analyse_is_complete: 'Tu análisis de audio está completo',
   your_result_explanation:
     'Eres útil y analítico. \nEres consciente emocionalmente: eres consciente  \nde tus sentimientos y de cómo expresarlos. Eres empático: sientes lo que sienten los demás y \neres compasivo con ellos. Y eres  naltruista: te sientes satisfecho cuando ayudas \na otros, y harás todo lo posible para hacerlo. \nSus elecciones están impulsadas por un deseo de \nbienestar. Considera tanto la tradición como la independencia para orientar gran parte de lo que hace.  NRespetas mucho a los grupos a los que perteneces y \nsigue su guía.',
+  your_profile: 'Tu perfil',
   // Z
 };

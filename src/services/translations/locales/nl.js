@@ -22,6 +22,7 @@ export default {
     'u kunt psyscan \nverbinden met sociale applicaties op uw telefoon \nom uw activiteit te volgen',
   complete_manually: 'Handmatig invullen',
   complete: 'Compleet',
+  center: 'centrum',
   // D
   dutifulness: 'Plichtsbetrachting',
   // E
@@ -37,6 +38,9 @@ export default {
   gender: 'Geslacht',
   // H
   hello: 'Goede Dag',
+  how_you_can_work_on_it: 'Hoe kun je eraan werken? wat het betekent?',
+  helpful_mentalhealth_applications:
+    'Handige toepassingen voor geestelijke gezondheid',
   // I
   in_depth_analysis: 'Diepgaande analyse',
   intermediate: 'Gemiddeld',
@@ -52,7 +56,8 @@ export default {
   let_us_know_you: 'Laten wij jou beter kennen',
   login: 'Log in',
   lets_start: 'Laten wij beginnen',
-
+  level_of_stress: 'Niveau van stress',
+  level_of_emotional_flexibility: 'Niveau van emotionele flexibiliteit',
   // M
   more_details: 'Meer details',
   // N
@@ -61,6 +66,7 @@ export default {
   // O
   occupation: 'Beroep',
   or: 'Of',
+  our_advise: 'Ons advies',
   // P
   percent_0: '0%',
   percent_25: '25%',
@@ -71,6 +77,8 @@ export default {
   password: 'Wachtwoord',
   physical_activity_last_2_days: 'Lichamelijke activiteit duurt 2 dagen',
   processing: 'Verwerken...',
+  psychologists: 'Psychologen',
+  psyscan: 'PSYSCAN',
   // Q
 
   // R
@@ -78,6 +86,7 @@ export default {
   race_culture: 'Ras, Cultuur',
   relationship_status: 'Relatiestatus',
   recording: 'Opnemen',
+  recommends_you: 'Beveelt u aan:',
   // S
   save: 'Opslaan',
   start_writing: 'Begin met schrijven',
@@ -87,6 +96,8 @@ export default {
   start_recording: 'Begin met opnemen',
   scanning: 'Scannen',
   start_video: 'Start de video',
+  sense_of_self_esteem: 'Gevoel van eigenwaarde',
+  sense_of_reality: 'Gevoel voor realiteit',
   // T
   text_analysis: 'Tekstanalyse',
   tell_us_how_you_feel: 'Vertel ons hoe u zich vandaag voelt.',
@@ -98,6 +109,7 @@ export default {
   video_analysis_first_page_instructions:
     'Leg uit wat er gaat gebeuren, waarom we moeten scannen. Geef instructies aan de gebruiker. Leg uit wat er gaat gebeuren, waarom we moeten scannen. Geef instructies aan de gebruiker.',
   video_instructions: 'Kunt u uw neus aanraken met uw rechterhand?',
+  visiting_these_centers: 'Als u deze centra bezoekt, kunt u zich beter voelen',
   // W
   words_analyzed: '15128 Woorden geanalyseerd',
   welcome: 'Welkome Naar',
@@ -119,5 +131,6 @@ export default {
   your_audio_analyse_is_complete: 'Uw audio-analyse is voltooid',
   your_result_explanation:
     'Je bent behulpzaam en analytisch. Je bent emotioneel bewust: je bent je bewust van je gevoelens en hoe je ze kunt uiten. Je bent empathisch: je voelt wat anderen voelen en hebt medelijden met hen. En je bent altruïstisch: je voelt je voldaan wanneer je anderen helpt, en doet er alles aan om dat te doen. Uw keuzes worden gedreven door een verlangen naar welzijn. je beschouwt zowel traditie als onafhankelijkheid als leidraad voor een groot deel van wat je doet. Je respecteert de groepen waartoe je behoort zeer en volgt hun richtlijnen. Uw keuzes worden gedreven door een verlangen naar welzijn. je beschouwt zowel traditie als onafhankelijkheid als leidraad voor een groot deel van wat je doet. Je respecteert de groepen waartoe je behoort zeer en volgt hun richtlijnen.',
+  your_profile: 'Jouw profiel',
   // Z
 };

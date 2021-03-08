@@ -32,10 +32,14 @@ import FaceScanThird from '../screens/advanced/FaceScanThird';
 import FaceScanResult from '../screens/advanced/FaceScanResult';
 
 // Video analysis
-
 import VideoAnalysisFirst from '../screens/advanced/VideoAnalysisFirst';
 import VideoAnalysisSecond from '../screens/advanced/VideoAnalysisSecond';
 import VideoAnalysisResult from '../screens/advanced/VideoAnalysisResult';
+
+// Advanced testing results
+import YourResult from '../screens/advanced/YourResult';
+import RecommendResult from '../screens/advanced/RecommendResult';
+import PsychologistResult from '../screens/advanced/PsychologistResult';
 
 import MainPage from '../screens/indepth/MainPage';
 
@@ -119,6 +123,16 @@ const RootStackNavigator = ({navigation}) => (
     <RootStack.Screen
       name="VideoAnalysisResultScreen"
       component={VideoAnalysisResult}
+    />
+
+    <RootStack.Screen name="YourResultScreen" component={YourResult} />
+    <RootStack.Screen
+      name="RecommendResultScreen"
+      component={RecommendResult}
+    />
+    <RootStack.Screen
+      name="PsychologistResultScreen"
+      component={PsychologistResult}
     />
 
     <RootStack.Screen name="MainPageScreen" component={MainPage} />

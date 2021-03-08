@@ -29,7 +29,7 @@ class FaceScanResult extends Component {
           <View style={styles.lastButtonsView}>
             <CustomButton
               text={'next_step'}
-              screenName="MenuScreen"
+              screenName="YourResultScreen"
               txtBtnHeight={50}
               txtPaddingVertical={15}
               btnWidth={150}
@@ -39,7 +39,7 @@ class FaceScanResult extends Component {
         <Bottom
           text="PSYSCAN"
           leftScreenName="MenuScreen"
-          rightScreenName="AudioAnalysisSecondScreen"
+          rightScreenName="YourResultScreen"
         />
       </SafeAreaView>
     );
