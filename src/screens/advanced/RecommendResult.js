@@ -3,7 +3,6 @@ import {SafeAreaView, StyleSheet, View, Text, Platform} from 'react-native';
 import Bottom from '../../components/Bottoms/Bottom';
 import I18n from '../../../src/services/translations/translation';
 import CONSTANTS from '../../constants/styles';
-import CustomButton from '../../components/buttons/CustomButton';
 import CustomButton2 from '../../components/buttons/CustomButton2';
 
 class RecommendResult extends Component {

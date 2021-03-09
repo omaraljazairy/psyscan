@@ -58,7 +58,7 @@ class PsychologistResult extends Component {
                   />
                 </Left>
                 <Body>
-                  <Text style={styles.listHeaderText}>Center 1</Text>
+                  <Text style={styles.listHeaderText}>Center 2</Text>
                   <Text style={styles.listDetailText}>
                     St bound street 67, 20127
                   </Text>

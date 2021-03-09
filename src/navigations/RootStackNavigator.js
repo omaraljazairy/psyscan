@@ -41,6 +41,9 @@ import YourResult from '../screens/advanced/YourResult';
 import RecommendResult from '../screens/advanced/RecommendResult';
 import PsychologistResult from '../screens/advanced/PsychologistResult';
 
+// You
+import Journal from '../screens/you/Journal';
+
 import MainPage from '../screens/indepth/MainPage';
 
 const RootStack = createStackNavigator();
@@ -135,6 +138,7 @@ const RootStackNavigator = ({navigation}) => (
       component={PsychologistResult}
     />
 
+    <RootStack.Screen name="JournalScreen" component={Journal} />
     <RootStack.Screen name="MainPageScreen" component={MainPage} />
   </RootStack.Navigator>
 );

@@ -40,6 +40,10 @@ export default {
   hello: 'Hello',
   how_you_can_work_on_it: 'How you can work on it? what it means?',
   helpful_mentalhealth_applications: 'Helpful mentalhealth applications',
+  how_are_you_feeling_today: 'How are you feeling today',
+  hours_slept_last_night: 'Hours slept last night?',
+  high: 'High',
+
   // I
   in_depth_analysis: 'In-Depth analysis',
   intermediate: 'Intermediate',
@@ -59,9 +63,12 @@ export default {
   level_of_emotional_flexibility: 'Level of emotional flexibility',
   // M
   more_details: 'More details',
+  mild: 'Mild',
   // N
   no: 'No',
   next_step: 'next step',
+  none: 'None',
+  normal: 'Normal',
   // O
   occupation: 'Occupation',
   or: 'Or',
@@ -78,6 +85,7 @@ export default {
   processing: 'Processing...',
   psychologists: 'Psychologists',
   psyscan: 'PSYSCAN',
+  physical_activity: 'Physical activity',
   // Q
 
   // R
@@ -100,6 +108,9 @@ export default {
   // T
   text_analysis: 'Text analysis',
   tell_us_how_you_feel: 'Tell us how you feel today.',
+  today_most_elevated_mood: "Today's most elevated mood",
+  today_most_depressed_mood: "Today's most depressed mood",
+  talk_therapy_today: 'Talk therapy today',
   // U
 
   // V
@@ -116,6 +127,7 @@ export default {
   // X
 
   // Y
+  you: 'You',
   your_result_slider:
     'Higher: Value getting along with others. They have \nmore optimistic view of human nature. Lower: Value \nselfinterests over others. They are more skeptical of \nothers motives.',
   your_activity: 'Your activity',

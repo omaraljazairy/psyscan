@@ -9,6 +9,7 @@ export default {
     EASTERN_BLUE: '#2094be',
     ROCK_BLUE: '#9cbbca',
     MATISSE: '#1c5991',
+    FOUNTAIN_BLUE: '#62aec6',
   },
   FONT: {
     STYLE: 'normal',
@@ -18,5 +19,7 @@ export default {
     HEADER_H2_ANDROID: 14,
     DESCRIPTION_SIZE_IOS: 15,
     DESCRIPTION_SIZE_ANDROID: 13,
+    DESCRIPTION_2_SIZE_IOS: 13,
+    DESCRIPTION_2_SIZE_ANDROID: 11,
   },
 };

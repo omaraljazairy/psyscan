@@ -113,7 +113,7 @@ class Menu extends Component {
               <BlockButton
                 // btnSize="small"
                 text="start_the_test"
-                screenName="MainPageScreen"
+                screenName="JournalScreen"
               />
             </View>
           )}

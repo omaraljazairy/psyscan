@@ -9,22 +9,35 @@ const CustomButton2 = (props) => {
   const navigation = useNavigation();
   const screenName = props.screenName;
   const navProps = props.navProps ? props.navProps : {};
-  const btnWidth = props.btnWidth ? props.btnWidth : 300;
+  const btnWidth = props.btnWidth ? props.btnWidth : null;
   // const btnHeight = props.btnHeight ? props.btnHeight : 30;
   const bgColor = props.bgColor ? props.bgColor : CONSTANTS.COLOR.EASTERN_BLUE;
   const textColor = props.textColor ? props.textColor : CONSTANTS.COLOR.WHITE;
+  const borderColor = props.borderColor ? props.borderColor : null;
   // const devicebtnHeight = Platform.OS === 'ios' ? btnHeight : btnHeight - 5;
   // const textBtnHeight = props.txtBtnHeight ? props.txtBtnHeight : null;
-  // const paddingVertical = props.txtPaddingVertical
-  //   ? props.txtPaddingVertical
-  //   : 6;
-  // const devicePaddingVertical =
-  //   Platform.OS === 'ios' ? paddingVertical : paddingVertical - 2;
+  const paddingVertical = props.paddingVertical ? props.paddingVertical : null;
+  const devicePaddingVertical =
+    Platform.OS === 'ios' ? paddingVertical : paddingVertical - 2;
+
+  const paddingHorizontal = props.paddingHorizontal
+    ? props.paddingHorizontal
+    : null;
+
+  const devicepaddingHorizontal =
+    Platform.OS === 'ios' ? paddingHorizontal : paddingHorizontal - 2;
 
   return (
     <View style={styles.view}>
       <TouchableOpacity
-        style={{...styles.button, backgroundColor: bgColor, width: btnWidth}}
+        style={{
+          ...styles.button,
+          backgroundColor: bgColor,
+          borderColor: borderColor,
+          paddingVertical: devicePaddingVertical,
+          paddingHorizontal: devicepaddingHorizontal,
+          width: btnWidth,
+        }}
         onPress={
           screenName
             ? () => navigation.navigate(screenName, navProps)
@@ -33,7 +46,7 @@ const CustomButton2 = (props) => {
         <Text
           style={{
             ...styles.text,
-            backgroundColor: bgColor,
+            // backgroundColor: bgColor,
             // height: textBtnHeight,
             // paddingVertical: devicePaddingVertical,
             color: textColor,
@@ -50,9 +63,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   button: {
-    paddingTop: Platform.OS === 'ios' ? 19 : 12,
-    paddingBottom: 15,
-    paddingHorizontal: 10,
+    // paddingTop: Platform.OS === 'ios' ? 10 : 12,
+    // paddingBottom: 10,
+    // paddingVertical: 10,
+    // paddingHorizontal: 20,
+    borderWidth: 1,
     borderRadius: 10,
   },
   text: {

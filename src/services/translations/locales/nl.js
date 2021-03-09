@@ -41,6 +41,10 @@ export default {
   how_you_can_work_on_it: 'Hoe kun je eraan werken? wat het betekent?',
   helpful_mentalhealth_applications:
     'Handige toepassingen voor geestelijke gezondheid',
+  how_are_you_feeling_today: 'hoe voel je je vandaag?',
+  hours_slept_last_night: 'Uren vannacht geslapen?',
+  high: 'Hoog',
+
   // I
   in_depth_analysis: 'Diepgaande analyse',
   intermediate: 'Gemiddeld',
@@ -60,9 +64,12 @@ export default {
   level_of_emotional_flexibility: 'Niveau van emotionele flexibiliteit',
   // M
   more_details: 'Meer details',
+  mild: 'Mild',
   // N
   no: 'Nee',
   next_step: 'volgende stap',
+  none: 'Geen',
+  normal: 'Normaal',
   // O
   occupation: 'Beroep',
   or: 'Of',
@@ -79,6 +86,7 @@ export default {
   processing: 'Verwerken...',
   psychologists: 'Psychologen',
   psyscan: 'PSYSCAN',
+  physical_activity: 'Fysieke activiteit',
   // Q
 
   // R
@@ -101,6 +109,9 @@ export default {
   // T
   text_analysis: 'Tekstanalyse',
   tell_us_how_you_feel: 'Vertel ons hoe u zich vandaag voelt.',
+  today_most_elevated_mood: 'De meest verheven stemming van vandaag',
+  today_most_depressed_mood: 'De meest depressieve stemming van vandaag',
+  talk_therapy_today: 'Praat therapie vandaag',
   // U
 
   // V
@@ -117,6 +128,7 @@ export default {
   // X
 
   // Y
+  you: 'U',
   your_activity: 'Jouw activiteit',
   your_activity_description:
     'u kunt psyscan verbinden \nmet uw gezondheidsgegevens en sociale \nmedia die dagelijks op uw telefoon worden gecontroleerd',

@@ -40,6 +40,9 @@ export default {
   hello: 'Hola',
   how_you_can_work_on_it: '¿Cómo puedes trabajar en eso? que significa',
   helpful_mentalhealth_applications: 'Aplicaciones útiles para la salud mental',
+  how_are_you_feeling_today: 'Cómo te sientes hoy?',
+  hours_slept_last_night: '¿Horas dormiste anoche?',
+  high: 'Alto',
   // I
   is_it_your_mothertongue_language: '¿Es tu lengua materna?',
   intermediate: 'Intermedio',
@@ -59,9 +62,12 @@ export default {
   level_of_emotional_flexibility: 'Nivel de flexibilidad emocional',
   // M
   more_details: 'Más detalles',
+  mild: 'Templado',
   // N
   no: 'No',
   next_step: 'próximo paso',
+  normal: 'Normal',
+  none: 'Ninguno',
   // O
   occupation: 'Ocupación',
   or: 'O',
@@ -78,6 +84,7 @@ export default {
   processing: 'Procesando...',
   psychologists: 'Psicólogas',
   psyscan: 'PSYSCAN',
+  physical_activity: 'Actividad física',
   // Q
 
   // R
@@ -100,6 +107,9 @@ export default {
   // T
   text_analysis: 'Análisis de texto',
   tell_us_how_you_feel: 'Cuéntanos cómo te sientes hoy.',
+  today_most_elevated_mood: 'El estado de ánimo más elevado de hoy',
+  today_most_depressed_mood: 'El estado de ánimo más deprimido de hoy',
+  talk_therapy_today: 'Terapia de conversación hoy',
   // U
 
   // V
@@ -116,6 +126,7 @@ export default {
   // X
 
   // Y
+  you: 'usted',
   your_activity: 'Tu actividad',
   your_activity_description:
     'puede conectar psyscan con sus datos de salud y las redes sociales monitoreadas diariamente en su teléfono',
