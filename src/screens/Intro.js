@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import {SafeAreaView, StyleSheet, View} from 'react-native';
 import BlockButton from '../components/buttons/BlockButton';
-import BottomButton from '../components/buttons/BottomButton';
-// import I18n from '../../src/services/translations/translation';
+import Bottom from '../components/Bottoms/Bottom';
 
 class Intro extends Component {
   render() {
@@ -20,9 +19,7 @@ class Intro extends Component {
             screenName="RegisterScreen"
           />
         </View>
-        <View style={styles.bottomTextView}>
-          <BottomButton text="PSYSCAN" />
-        </View>
+        <Bottom text="PSYSCAN" />
       </SafeAreaView>
     );
   }
@@ -34,14 +31,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#0c5980',
     justifyContent: 'center',
   },
-  bottomTextView: {
-    flex: 1,
-    justifyContent: 'flex-end',
-    marginBottom: 36,
-  },
   buttonView: {
-    flex: 1,
-    justifyContent: 'flex-end',
+    flex: 2,
+    justifyContent: 'center',
     alignItems: 'center',
   },
 });

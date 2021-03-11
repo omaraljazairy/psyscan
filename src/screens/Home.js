@@ -8,36 +8,33 @@ import {
   Image,
 } from 'react-native';
 import BlockButton from '../components/buttons/BlockButton';
-import Title from '../components/texts/Title';
+import Header from '../components/Headers/Header';
 
 class Home extends Component {
   render() {
     return (
       <SafeAreaView style={styles.container}>
-        <View style={styles.header}>
-          <View>
-            <Title text={'welcome'} />
-          </View>
-          <View>
+        <Header text={'welcome'} />
+        <View style={styles.bodyView}>
+          <View style={styles.imageView}>
             <Image
               source={require('../../src/assets/images/main_logo.gif')}
               style={styles.logo}
               resizeMode="stretch"
             />
           </View>
-        </View>
-        <View style={styles.footer}>
-          <Text style={styles.introText}>
-            Psysan is ksenia and Ksenia is Psyscan dsnjsdnsd djssndns djs sj s s
-            sjdl sj safesdsj dj sjdjs j sk k dsj sk
-          </Text>
-          <View style={styles.buttonView}>
-            <BlockButton
-              text={'lets_start'}
-              color="#20a2cb"
-              screenName="IntroScreen"
-            />
+          <View style={styles.introTextView}>
+            <Text style={styles.introText}>
+              Hola Ksenia, como estas. Porque Ksenia porque. no se no se.
+            </Text>
           </View>
+        </View>
+        <View style={styles.buttonView}>
+          <BlockButton
+            text={'lets_start'}
+            color="#20a2cb"
+            screenName="IntroScreen"
+          />
         </View>
       </SafeAreaView>
     );
@@ -51,14 +48,20 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#0c5980',
-  },
-  header: {
-    flex: 2,
     justifyContent: 'center',
     alignItems: 'center',
   },
-  footer: {
+  body: {
     flex: 2,
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    paddingTop: 20,
+  },
+  imageView: {
+    paddingBottom: 50,
+    alignItems: 'center',
+  },
+  introTextView: {
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -76,13 +79,12 @@ const styles = StyleSheet.create({
   introText: {
     color: '#fff',
     fontSize: 15,
-    width: '80%',
+    width: '40%',
     textAlign: 'center',
-    position: 'absolute',
-    top: '1%',
   },
   buttonView: {
     position: 'absolute',
+    // marginTop: 100,
     bottom: '10%',
   },
 });

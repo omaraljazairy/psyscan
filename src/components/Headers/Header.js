@@ -87,7 +87,14 @@ const Header = (props) => {
                   <View style={styles.section}>
                     <Text style={styles.headerSection}>APPOINTMENTS</Text>
                     <Divider style={styles.dividerSection} />
-                    <Text style={styles.linkSection}>APPOINTMENT 1</Text>
+                    <Text
+                      style={styles.linkSection}
+                      onPress={() => {
+                        toggleOverlay();
+                        navigation.navigate('HomeScreen', {});
+                      }}>
+                      APPOINTMENT 1
+                    </Text>
                   </View>
                 </View>
               </View>

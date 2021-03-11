@@ -173,7 +173,7 @@ const styles = StyleSheet.create({
   sliderView: {
     paddingBottom: 5,
     width: '100%',
-    paddingHorizontal: 5,
+    paddingHorizontal: 40,
   },
   sliderTrack: {
     backgroundColor: CONSTANTS.COLOR.EASTERN_BLUE,

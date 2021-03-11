@@ -16,18 +16,42 @@ const Bottom = (props) => {
   const deviceFontSize =
     Platform.OS === 'ios' ? textFontSize : textFontSize - 2;
   const textColor = props.textColor ? props.textColor : CONSTANTS.COLOR.WHITE;
+  const leftButton = props.leftScreenName ? (
+    <Icon
+      name="left"
+      type="antdesign"
+      color={textColor}
+      size={20}
+      iconStyle={styles.icon}
+      onPress={() => navigation.navigate(leftScreenName, navProps)}
+    />
+  ) : (
+    <Icon
+      name="left"
+      type="antdesign"
+      color={textColor}
+      size={20}
+      iconStyle={styles.icon}
+      onPress={() => navigation.goBack()}
+    />
+  );
+  const rightButton = props.rightScreenName ? (
+    <Icon
+      name="right"
+      type="antdesign"
+      color={textColor}
+      size={20}
+      iconStyle={styles.icon}
+      onPress={() => navigation.navigate(rightScreenName, navProps)}
+    />
+  ) : (
+    <View style={styles.icon} />
+  );
 
   return (
     <View style={styles.bottomView}>
       <View style={styles.contentView}>
-        <Icon
-          name="left"
-          type="antdesign"
-          color={textColor}
-          size={20}
-          iconStyle={styles.icon}
-          onPress={() => navigation.navigate(leftScreenName, navProps)}
-        />
+        {leftButton}
         <Button block transparent>
           <Text
             style={{
@@ -39,14 +63,15 @@ const Bottom = (props) => {
             {text}
           </Text>
         </Button>
-        <Icon
+        {rightButton}
+        {/* <Icon
           name="right"
           type="antdesign"
           color={textColor}
           size={20}
           iconStyle={styles.icon}
           onPress={() => navigation.navigate(rightScreenName, navProps)}
-        />
+        /> */}
       </View>
     </View>
   );

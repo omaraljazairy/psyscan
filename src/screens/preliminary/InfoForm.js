@@ -3,7 +3,6 @@ import {SafeAreaView, StyleSheet, View, Platform} from 'react-native';
 import SimplePicker from '../../components/pickers/SimplePicker';
 import Header from '../../components/Headers/Header';
 import Bottom from '../../components/Bottoms/Bottom';
-// import TextFieldLable from '../../components/inputs/TextFieldLable';
 import EmptyButton from '../../components/buttons/EmptyButton';
 import {
   location_list,
@@ -13,8 +12,6 @@ import {
   education_list,
   relationship_status_list,
 } from '../../data/data';
-
-// import I18n from '../../../src/services/translations/translation';
 
 class InfoForm extends Component {
   state = {

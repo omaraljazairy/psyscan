@@ -63,6 +63,7 @@ const RootStackNavigator = ({navigation}) => (
     <RootStack.Screen
       name="TextAnalysisFirstScreen"
       component={TextAnalysisFirst}
+      // options={{gestureDirection: 'vertical'}}
     />
     <RootStack.Screen
       name="TextAnalysisSecondScreen"
@@ -79,6 +80,7 @@ const RootStackNavigator = ({navigation}) => (
     <RootStack.Screen
       name="YourActivityResultsScreen"
       component={YourActivityResults}
+      // options={{gestureDirection: 'horizontal-inverted'}}
     />
     <RootStack.Screen
       name="TextAnalysisResultFirstScreen"
